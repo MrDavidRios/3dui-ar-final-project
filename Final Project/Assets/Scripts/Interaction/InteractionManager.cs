@@ -52,5 +52,8 @@ public class InteractionManager : MonoBehaviour
     private void OnUnselected(GameObject go, PointerEvent eventData)
     {
         Debug.Log($"{go.name} was released", go);
+        
+        GrabInteractor grabInteractor = eventData.Data as GrabInteractor;
+        bool isRight = grabInteractor.transform.parent.parent.name == "RightController";
     }
 }
