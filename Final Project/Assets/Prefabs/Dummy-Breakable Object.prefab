@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2881113948217485333}
   - component: {fileID: 7909449268028858664}
   m_Layer: 0
-  m_Name: Breakable Object
+  m_Name: Dummy-Breakable Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
