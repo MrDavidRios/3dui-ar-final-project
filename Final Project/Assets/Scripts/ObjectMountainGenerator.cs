@@ -6,12 +6,12 @@ public class ObjectMountainGenerator : MonoBehaviour
 {
     public GameObject objectPrefab;
     public Transform centerPoint;
-    public int numObjects = 100;
+    public int numObjects = 10;
 
     public float placementRadius = 5f; // for RandomSpawn()
 
     public int layers = 5;
-    public int baseLayerSize = 100; // Number of objects in base layer of pyramid
+    public int baseLayerSize = 10; // Number of objects in base layer of pyramid
     public float spacing = 1.5f;
 
     private void Start()
