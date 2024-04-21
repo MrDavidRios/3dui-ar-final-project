@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 
 [SelectionBase]
@@ -10,6 +11,8 @@ public class Breakable : MonoBehaviour
     [SerializeField] GameObject originalObject;
     [SerializeField] GameObject brokenObject;
     float break_threshold = 1.0f;
+
+    [SerializeField] private UnityEvent OnBreak;
 
     BoxCollider bc;
 
@@ -49,5 +52,6 @@ public class Breakable : MonoBehaviour
         brokenObject.SetActive(true);
 
         bc.enabled = false;
+        OnBreak?.Invoke();
     }
 }
