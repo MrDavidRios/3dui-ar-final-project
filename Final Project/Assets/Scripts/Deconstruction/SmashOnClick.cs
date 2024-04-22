@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SmashOnClick : MonoBehaviour
 {
+    [SerializeField] private UnityEvent OnSmash;
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -15,6 +18,7 @@ public class SmashOnClick : MonoBehaviour
                 if (hit.collider.gameObject == gameObject)
                 {
                     StartCoroutine(DetachAndReleaseChildren());
+                    OnSmash?.Invoke();
                 }
             }
         }
