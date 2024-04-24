@@ -12,7 +12,7 @@ public class Breakable : MonoBehaviour
     [SerializeField] GameObject brokenObject;
     float break_threshold = 1.0f;
 
-    [SerializeField] private UnityEvent OnBreak;
+    [SerializeField] public UnityEvent OnBreak;
 
     BoxCollider bc;
 
@@ -48,10 +48,10 @@ public class Breakable : MonoBehaviour
 
     private void Break()
     {
+        OnBreak?.Invoke();
         originalObject.SetActive(false);
         brokenObject.SetActive(true);
 
         bc.enabled = false;
-        OnBreak?.Invoke();
     }
 }

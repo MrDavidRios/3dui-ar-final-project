@@ -10,26 +10,34 @@ public class ObjectDestructionTracker : ObjectiveTracker
 
     public GameObject objectParent;
 
-    void Update()
-    {
-        GameObject[] relevantGameObjects = trackSpecificObjects ? objectsToTrack : GetChildren(objectParent);
-        bool relevantObjectsDestroyed = CheckIfObjectsAreDestroyed(relevantGameObjects);
+    //void Update()
+    //{
+    //    GameObject[] relevantGameObjects = GetRelevantGameObjects();
+    //    bool relevantObjectsDestroyed = CheckIfObjectsAreDestroyed(relevantGameObjects);
 
-        if (relevantObjectsDestroyed)
-            OnObjectiveCompleted();
+    //    if (relevantObjectsDestroyed)
+    //        OnObjectiveCompleted();
+    //}
+
+    protected GameObject[] GetRelevantGameObjects()
+    {
+        return trackSpecificObjects ? objectsToTrack : GetChildren(objectParent);
     }
 
-    private bool CheckIfObjectsAreDestroyed(GameObject[] gameObjects)
+    protected virtual bool CheckIfObjectsAreDestroyed(GameObject[] gameObjects)
     {
         // TODO: add logic to check if objects are destroyed
         // ===
         // this depends on the implementation of object destruction
+
+        // Can extend in individual managers
         return false;
     }
 
-    private GameObject[] GetChildren(GameObject parent)
+    protected GameObject[] GetChildren(GameObject parent)
     {
         GameObject[] children = new GameObject[parent.transform.childCount];
+        Debug.Log(parent.transform.childCount);
 
         for (int i = 0; i < parent.transform.childCount; i++)
         {
