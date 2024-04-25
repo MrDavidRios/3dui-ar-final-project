@@ -13,26 +13,22 @@ public class OnCollisionDetector : MonoBehaviour
             
             if (breakable != null)
             {
-                breakable.BreakObject(other.gameObject.transform.Find("Visuals/Root/Collider").gameObject);
+                breakable.BreakObject(other.gameObject.transform.Find("Visuals/Root/Collider").gameObject,null);
             }
             else
             {
                 Debug.Log("Breakable script not found");
             }
         }
-        // else if (other.gameObject.name.Contains("Floor") || other.gameObject.name.Contains("Wall"))
-        // {
         else
         {
             Breakable breakable = transform.GetComponentInChildren<Breakable>(false);
             if (breakable != null)
             {
-                Debug.Log("Velocity: " + GetComponent<Rigidbody>().velocity.magnitude);
                 if (GetComponent<Rigidbody>().velocity.magnitude > 1.5f)
-                    breakable.Break();
+                    breakable.Break(null);
             }
         }
-        // }
         
     }
 }
