@@ -10,7 +10,7 @@ public class Breakable : MonoBehaviour
 {
     [SerializeField] GameObject originalObject;
     [SerializeField] GameObject brokenObject;
-    float break_threshold = 1.0f;
+    float break_threshold = 0.4f;
 
     [SerializeField] public UnityEvent OnBreak;
 
@@ -29,29 +29,44 @@ public class Breakable : MonoBehaviour
         Break();
     }
 
+    public void BreakObject(GameObject breakerObj)
+    {
+        Breaker breaker = breakerObj.GetComponent<Breaker>();
+        if (breaker != null)
+        {
+            Vector3 velocity = breaker.Velocity;
+            float speed = velocity.magnitude;
+            if (speed > break_threshold)
+            {
+                breaker.HitObject();
+                Break();
+            }
+            else
+            {
+                Debug.Log("Speed not enough to break " + speed);
+            }
+        }
+        else
+        {
+            Debug.Log("Breaker script not found");
+        }
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Breaker"))
         {
-            Breaker breaker = other.gameObject.GetComponent<Breaker>();
-            if (breaker != null)
-            {
-                Vector3 velocity = breaker.Velocity;
-                float speed = velocity.magnitude;
-                if (speed > break_threshold)
-                    Break();
-            }
+            BreakObject(other.gameObject);
         }
     }
 
 
-    private void Break()
+    public void Break()
     {
         OnBreak?.Invoke();
         originalObject.SetActive(false);
         brokenObject.SetActive(true);
-
         bc.enabled = false;
     }
 }

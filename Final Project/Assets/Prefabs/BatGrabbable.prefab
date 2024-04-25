@@ -1266,6 +1266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 996c74715cb2f6f40951465d4f1eee55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hapticClip: {fileID: 2460798210113038985, guid: d431311f944cf914fb11fa7f01005e82, type: 3}
 --- !u!1 &7234367383001066942
 GameObject:
   m_ObjectHideFlags: 0
