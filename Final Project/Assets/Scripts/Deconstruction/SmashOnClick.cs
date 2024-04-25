@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -21,6 +20,15 @@ public class SmashOnClick : MonoBehaviour
                     OnSmash?.Invoke();
                 }
             }
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Breaker")) // Check if the collider is tagged as "Breaker"
+        {
+            StartCoroutine(DetachAndReleaseChildren());
+            OnSmash?.Invoke();
         }
     }
 
