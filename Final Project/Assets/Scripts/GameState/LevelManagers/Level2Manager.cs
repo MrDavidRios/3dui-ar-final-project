@@ -49,8 +49,6 @@ public class Level2Manager : ObjectDestructionTracker
 
         if (totalCount <= 0)
         {
-            // turn off countdown
-            timeTracker.enabled = false; // disable the script to prevent invoking onbojectivecompleted() twice
             OnObjectiveCompleted(); // trigger completion event - bring up menu? 
         }
     }
