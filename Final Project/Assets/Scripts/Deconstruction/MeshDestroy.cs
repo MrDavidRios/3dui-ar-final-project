@@ -16,12 +16,15 @@ public class MeshDestroy : MonoBehaviour
 
     [SerializeField] private UnityEvent OnMeshDestroy;
 
-    void Update()
+    // Removed the Update method that listened for mouse clicks
+
+    private void OnCollisionEnter(Collision collision)
     {
-        if (Input.GetMouseButtonDown(0))
+        // Check if the colliding object has the "Breaker" tag
+        if (collision.gameObject.tag == "Breaker")
         {
-            DestroyMesh();
-            OnMeshDestroy?.Invoke();
+            DestroyMesh(); // Call the destruction method
+            OnMeshDestroy?.Invoke(); // Invoke any additional effects or functionality
         }
     }
 

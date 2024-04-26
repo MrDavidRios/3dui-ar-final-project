@@ -17,6 +17,7 @@ public class LocalizedBreakableObject : MonoBehaviour
         {
             rb = gameObject.AddComponent<Rigidbody>();
         }
+
         rb.isKinematic = false;
         rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
 
@@ -39,6 +40,28 @@ public class LocalizedBreakableObject : MonoBehaviour
             if (forceMagnitude > forceThreshold)
             {
                 HandleImpact(impactPoint, impactForce, collision.collider);
+            }
+            else if (forceMagnitude > moveThreshold)
+            {
+                rb.AddForce(impactForce, ForceMode.Impulse);
+            }
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        
+        if (other.gameObject.CompareTag("Breaker"))
+        {
+            // Vector3 impactPoint = collision.contacts[0].point;
+            Vector3 impactPoint = other.ClosestPoint(transform.position);
+            // Vector3 impactForce = other.impulse;
+            Vector3 impactForce = other.GetComponent<Breaker>().Velocity;
+            float forceMagnitude = impactForce.magnitude;
+
+            if (forceMagnitude > forceThreshold)
+            {
+                HandleImpact(impactPoint, impactForce, other);
             }
             else if (forceMagnitude > moveThreshold)
             {

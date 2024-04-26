@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 1929544661392029069}
   - component: {fileID: 3941779368051701836}
   m_Layer: 0
-  m_Name: GrabbableVase
+  m_Name: GrabbableVase_40
   m_TagString: Breaker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
