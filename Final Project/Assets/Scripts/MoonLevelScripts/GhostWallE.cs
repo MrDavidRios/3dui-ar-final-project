@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class GhostWallE : MonoBehaviour
 {
@@ -16,7 +18,7 @@ public class GhostWallE : MonoBehaviour
     // constantly rotate towards the user and prompt the user to find its body. 
 
     public Transform player;
-    public Transform mountain;
+    public Transform destination;
 
     public GameObject followMePrompt;
     public GameObject findMePrompt;
@@ -27,13 +29,15 @@ public class GhostWallE : MonoBehaviour
     public float moveSpeed = 0.5f;
     public float turnSpeed = 0.5f;
 
-    private bool mountainReached = false;
+    public float fadeSpeed = 0.1f;
+
+    private bool destinationReached = false;
 
     void Start()
     {
         followMePrompt.SetActive(true);
         findMePrompt.SetActive(false);
-
+        //FadeIn();
         FacePlayer();
     }
 
@@ -42,10 +46,15 @@ public class GhostWallE : MonoBehaviour
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
         //Debug.Log("Distance to player:");Debug.Log(distanceToPlayer);
 
-        if (mountainReached)
+        if (destinationReached)
         {
+            FadeOut();
             FacePlayer();
-            return;
+            Deactivate();
+            //FadeOut();
+        } else
+        {
+            FadeIn();
         }
 
         if (distanceToPlayer > followThreshold)
@@ -55,18 +64,26 @@ public class GhostWallE : MonoBehaviour
         }
         else
         {
-            if (!mountainReached)
+            if (!destinationReached)
             {
-                MoveTowardsMountain();
+                MoveTowardsDestination();
                 followMePrompt.SetActive(false);
             }
         }
     }
 
-    public void MoveTowardsMountain()
+    public void Deactivate()
     {
-        Vector3 direction = (mountain.position - transform.position).normalized;
-        float distanceToMountain = Vector3.Distance(transform.position, mountain.position);
+        if (this.GetComponent<Renderer>().material.color.a <= 0)
+            gameObject.SetActive(false);
+        if (followMePrompt.GetComponentInChildren<TextMeshProUGUI>().color.a <= 0 && followMePrompt.GetComponent<Image>().color.a <= 0)
+            followMePrompt.SetActive(false);
+    }
+
+    public void MoveTowardsDestination()
+    {
+        Vector3 direction = (destination.position - transform.position).normalized;
+        float distanceToMountain = Vector3.Distance(transform.position, destination.position);
 
         if (distanceToMountain > distanceToMountainThreshold)
         {
@@ -76,8 +93,8 @@ public class GhostWallE : MonoBehaviour
             transform.position += moveSpeed * Time.deltaTime * direction; // Move towards mountain
         } else
         {
-            mountainReached = true;
-            findMePrompt.SetActive(true);
+            destinationReached = true;
+            //findMePrompt.SetActive(true);
         }
     }
 
@@ -88,6 +105,103 @@ public class GhostWallE : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, turnSpeed * Time.deltaTime);
     }
 
-    // Could introduce another function for when Wall-E has been found.
+    // -------------------FadeOut() code-------------------
 
+    public void FadeOut()
+    {
+        StartCoroutine(FadeOutObject());
+        StartCoroutine(FadeOutUIImage());
+        StartCoroutine(FadeOutUIText());
+    }
+
+    public IEnumerator FadeOutObject()
+    {
+        while (this.GetComponent<Renderer>().material.color.a > 0)
+        {
+            Color objectColor = this.GetComponent<Renderer>().material.color;
+            float fadeAmount = objectColor.a - (fadeSpeed*Time.deltaTime);
+
+            objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+            this.GetComponent<Renderer>().material.color = objectColor;
+            yield return null;
+        }
+    }
+
+    public IEnumerator FadeOutUIImage()
+    {
+
+        while (followMePrompt.GetComponent<Image>().color.a > 0)
+        {
+            Color objectColor = followMePrompt.GetComponent<Image>().color;
+            float fadeAmount = objectColor.a - (2*fadeSpeed * Time.deltaTime);
+
+            objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+            followMePrompt.GetComponent<Image>().color = objectColor;
+            yield return null;
+        }
+    }
+
+    public IEnumerator FadeOutUIText()
+    {
+
+        while (followMePrompt.GetComponentInChildren<TextMeshProUGUI>().color.a > 0)
+        {
+            Color objectColor = followMePrompt.GetComponentInChildren<TextMeshProUGUI>().color;
+            float fadeAmount = objectColor.a - (2*fadeSpeed * Time.deltaTime);
+
+            objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+            followMePrompt.GetComponentInChildren<TextMeshProUGUI>().color = objectColor;
+            yield return null;
+        }
+    }
+
+    // -------------------FadeIn() code-------------------
+
+    public void FadeIn()
+    {
+        StartCoroutine(FadeInObject());
+        StartCoroutine(FadeInUIImage());
+        StartCoroutine(FadeInUIText());
+    }
+
+    public IEnumerator FadeInObject()
+    {
+        while (this.GetComponent<Renderer>().material.color.a < 0.5f)
+        {
+            Color objectColor = this.GetComponent<Renderer>().material.color;
+            float fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime *0.5f);
+
+            objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+            this.GetComponent<Renderer>().material.color = objectColor;
+            yield return null;
+        }
+    }
+
+    public IEnumerator FadeInUIImage()
+    {
+
+        while (followMePrompt.GetComponent<Image>().color.a < 0.6f)
+        {
+            Color objectColor = followMePrompt.GetComponent<Image>().color;
+            float fadeAmount = objectColor.a + (2 * fadeSpeed * Time.deltaTime * 0.5f);
+
+            objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+            followMePrompt.GetComponent<Image>().color = objectColor;
+            yield return null;
+        }
+    }
+
+    public IEnumerator FadeInUIText()
+    {
+
+        while (followMePrompt.GetComponentInChildren<TextMeshProUGUI>().color.a < 0.6f)
+        {
+            Color objectColor = followMePrompt.GetComponentInChildren<TextMeshProUGUI>().color;
+            float fadeAmount = objectColor.a + (2 * fadeSpeed * Time.deltaTime * 0.5f);
+
+            objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
+            followMePrompt.GetComponentInChildren<TextMeshProUGUI>().color = objectColor;
+            yield return null;
+        }
+    }
 }
