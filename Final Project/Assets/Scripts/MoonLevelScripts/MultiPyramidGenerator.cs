@@ -45,7 +45,7 @@ public class MultiPyramidGenerator : MonoBehaviour
 
             pyramidLocations.Add(randomPosition); // Store the position of this pyramid
 
-            Debug.Log("Gold WallE in" + randomPosition);
+            Debug.Log("Gold WallE in pyramid " + randomPosition);
 
             // Create a new pyramid at the generated position
             CreatePyramid(randomPosition, i == randomPyramidIndex); 
@@ -54,13 +54,17 @@ public class MultiPyramidGenerator : MonoBehaviour
 
     private void CreatePyramid(Vector3 centerPoint, bool containsGoldWallE)
     {
-        // create an empty parent gameobject for all 
+        // Create an empty parent GameObject to hold the entire pyramid - to be used for wayfinding indicator
+        GameObject pyramidParent = new GameObject("Pyramid");
+        pyramidParent.transform.position = centerPoint;
+
+        // Adjust start position for the base layer
         Vector3 startPosition = centerPoint - new Vector3((baseLayerSize - 1) * spacing / 2, 0, (baseLayerSize - 1) * spacing / 2);
 
         // Random location for the gold WallE within this pyramid
-        int goldLayer = Random.Range(0, pyramidLayers); 
-        int goldX = Random.Range(0, baseLayerSize - goldLayer); 
-        int goldZ = Random.Range(0, baseLayerSize - goldLayer); 
+        int goldLayer = Random.Range(0, pyramidLayers);
+        int goldX = Random.Range(0, baseLayerSize - goldLayer);
+        int goldZ = Random.Range(0, baseLayerSize - goldLayer);
 
         for (int layer = 0; layer < pyramidLayers; layer++)
         {
@@ -76,12 +80,12 @@ public class MultiPyramidGenerator : MonoBehaviour
                     if (containsGoldWallE && layer == goldLayer && x == goldX && z == goldZ)
                     {
                         // Place the gold WallE at the randomly chosen position
-                        Instantiate(goldWallEPrefab, position, Quaternion.identity, this.transform);
+                        Instantiate(goldWallEPrefab, position, Quaternion.identity, pyramidParent.transform);
                     }
                     else
                     {
                         // Create a regular objectPrefab for the pyramid
-                        Instantiate(objectPrefab, position, Quaternion.identity, this.transform);
+                        Instantiate(objectPrefab, position, Quaternion.identity, pyramidParent.transform);
                     }
                 }
             }
