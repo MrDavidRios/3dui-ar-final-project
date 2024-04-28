@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class MultiPyramidGenerator : MonoBehaviour
 {
-    public GameObject objectPrefab; 
+    public GameObject objectPrefab;
     public GameObject goldWallEPrefab; // Gold WallE to be placed in one of the pyramids
     public GameObject terrainBounds; // Rectangular GameObject representing terrain bounds
     public Transform player;
 
-    public int numberOfPyramids = 5; 
+    public int numberOfPyramids = 5;
     public float minimumDistanceBetweenPyramids = 10f;
     public float minimumDistanceFromPlayer = 20f;
-    public int pyramidLayers = 5; 
-    public int baseLayerSize = 10; 
+    public int pyramidLayers = 5;
+    public int baseLayerSize = 10;
     public float spacing = 1.5f; // Spacing between pyramid objects
 
     private List<Vector3> pyramidLocations = new List<Vector3>(); // List of pyramid positions
@@ -26,7 +26,7 @@ public class MultiPyramidGenerator : MonoBehaviour
             return;
         }
 
-        CreatePyramids(); 
+        CreatePyramids();
     }
 
     private void CreatePyramids()
@@ -40,7 +40,7 @@ public class MultiPyramidGenerator : MonoBehaviour
 
             while (IsTooCloseToOthers(randomPosition) || IsTooCloseToPlayer(randomPosition))
             {
-                randomPosition = GenerateRandomPosition(bounds); 
+                randomPosition = GenerateRandomPosition(bounds);
             }
 
             pyramidLocations.Add(randomPosition); // Store the position of this pyramid
@@ -48,7 +48,7 @@ public class MultiPyramidGenerator : MonoBehaviour
             Debug.Log("Gold WallE in pyramid " + randomPosition);
 
             // Create a new pyramid at the generated position
-            CreatePyramid(randomPosition, i == randomPyramidIndex); 
+            CreatePyramid(randomPosition, i == randomPyramidIndex);
         }
     }
 
@@ -57,6 +57,7 @@ public class MultiPyramidGenerator : MonoBehaviour
         // Create an empty parent GameObject to hold the entire pyramid - to be used for wayfinding indicator
         GameObject pyramidParent = new GameObject("Pyramid");
         pyramidParent.transform.position = centerPoint;
+        pyramidParent.transform.parent = transform;
 
         // Adjust start position for the base layer
         Vector3 startPosition = centerPoint - new Vector3((baseLayerSize - 1) * spacing / 2, 0, (baseLayerSize - 1) * spacing / 2);
@@ -94,11 +95,11 @@ public class MultiPyramidGenerator : MonoBehaviour
 
     private Vector3 GenerateRandomPosition(Bounds bounds)
     {
-        float randomX = Random.Range(bounds.min.x, bounds.max.x); 
-        float randomZ = Random.Range(bounds.min.z, bounds.max.z); 
+        float randomX = Random.Range(bounds.min.x, bounds.max.x);
+        float randomZ = Random.Range(bounds.min.z, bounds.max.z);
         float y = bounds.min.y;
 
-        return new Vector3(randomX, y, randomZ); 
+        return new Vector3(randomX, y, randomZ);
     }
 
     private bool IsTooCloseToOthers(Vector3 position)
