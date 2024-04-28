@@ -1,9 +1,4 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 
 public class MinimapIcons : MonoBehaviour
@@ -43,30 +38,25 @@ public class MinimapIcons : MonoBehaviour
 
     private void LateUpdate()
     {
-        playerIcon.anchoredPosition = GetRelativeIconPosition(player.position, "Player");
-        ghostWallEIcon.anchoredPosition = GetRelativeIconPosition(ghostWallE.position, "Ghost");
+        playerIcon.anchoredPosition = GetRelativeIconPosition(player.position);
+        ghostWallEIcon.anchoredPosition = GetRelativeIconPosition(ghostWallE.position);
 
         // Only show the next pile icon if there is a next pile in sight.
         pileIcon.gameObject.SetActive(nextPile != null);
         if (nextPile)
-            pileIcon.anchoredPosition = GetRelativeIconPosition(nextPile.position, "Pile");
+            pileIcon.anchoredPosition = GetRelativeIconPosition(nextPile.position);
     }
 
-    private Vector2 GetRelativeIconPosition(Vector3 destinationPos, String type)
+    private Vector2 GetRelativeIconPosition(Vector3 destinationPos)
     {
         Vector3 posDiff = GetPosDiff(player.transform.position, destinationPos);
         float cameraSize = minimapCamera.orthographicSize;
-
-        Debug.Log($"[{type}] - Position diff: {posDiff}");
 
         float xPos = posDiff.x / cameraSize;
         float yPos = posDiff.z / cameraSize;
 
         xPos = Mathf.Clamp(xPos, -1f, 1f);
         yPos = Mathf.Clamp(yPos, -1f, 1f);
-
-        Debug.Log($"[{type}] - x: {xPos}; y: {yPos}");
-        Debug.Log($"[{type}] - Minimap image rect: {minimapImage.rect.width} x {minimapImage.rect.height}");
 
         return new Vector2(xPos * minimapImage.rect.width / 2, yPos * minimapImage.rect.height / 2);
     }
