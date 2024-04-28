@@ -49,9 +49,8 @@ public class GhostWallE : MonoBehaviour
         if (destinationReached)
         {
             FadeOut();
-            FacePlayer();
+            //FacePlayer();
             Deactivate();
-            //FadeOut();
         } else
         {
             FadeIn();
@@ -94,7 +93,6 @@ public class GhostWallE : MonoBehaviour
         } else
         {
             destinationReached = true;
-            //findMePrompt.SetActive(true);
         }
     }
 
