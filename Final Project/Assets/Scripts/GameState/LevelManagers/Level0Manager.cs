@@ -14,6 +14,9 @@ public class Level0Manager : ObjectiveTracker
     public GameObject promptVasePickupUI;
     public GameObject promptBatPickupUI;
 
+    public Transform vase2OriginalPos;
+    public Transform vase2HidingPoint;
+
     private bool tutorialComplete;
 
     void Start()
@@ -55,7 +58,8 @@ public class Level0Manager : ObjectiveTracker
         // Wait for X seconds
         yield return new WaitForSeconds(5f);
 
-        vaseInstance1.SetActive(false);
+
+        Destroy(vaseInstance1);
         TurnOffPromptPickupVaseUI();
         TurnOnPromptPickupBatUI();
         //vaseInstance2.SetActive(true);
@@ -83,17 +87,21 @@ public class Level0Manager : ObjectiveTracker
         pickUpScroll.SetActive(false);
     }
 
-    public void TurnOnVase2()
+    public void ReappearVase2()
     {
         if (!tutorialComplete)
         {
             vaseInstance2.SetActive(true);
+            vaseInstance2.transform.position = vase2OriginalPos.position;
         }
     }
 
-    public void TurnOffVase2()
+    public void HideVase2()
     {
-        vaseInstance2.SetActive(false);
+        if (!tutorialComplete)
+        {
+            vaseInstance2.transform.position = vase2HidingPoint.position;
+        }
     }
 
     public void TurnOnPromptPickupVaseUI()

@@ -397,7 +397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6710813857616450496, guid: e0b6c4c0f74cd0a47a51d39a7e56ec01, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: TurnOnVase2
+      value: ReappearVase2
       objectReference: {fileID: 0}
     - target: {fileID: 6710813857616450496, guid: e0b6c4c0f74cd0a47a51d39a7e56ec01, type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -421,7 +421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6710813857616450496, guid: e0b6c4c0f74cd0a47a51d39a7e56ec01, type: 3}
       propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: TurnOffVase2
+      value: HideVase2
       objectReference: {fileID: 0}
     - target: {fileID: 6710813857616450496, guid: e0b6c4c0f74cd0a47a51d39a7e56ec01, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -690,15 +690,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1550,6 +1550,8 @@ MonoBehaviour:
   smashScroll: {fileID: 654806805}
   promptVasePickupUI: {fileID: 1663985894}
   promptBatPickupUI: {fileID: 1907823071}
+  vase2OriginalPos: {fileID: 833558298}
+  vase2HidingPoint: {fileID: 1526976146}
 --- !u!4 &477853250
 Transform:
   m_ObjectHideFlags: 0
@@ -2655,6 +2657,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 130423081}
   m_SourcePrefab: {fileID: 100100000, guid: b2c2eaa77adbe704690e52a50768f2a8, type: 3}
+--- !u!1 &833558297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 833558298}
+  m_Layer: 0
+  m_Name: Vase2OriginalPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &833558298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833558297}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.036000013, z: -0.81}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &843686054 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7981821531080537858, guid: f54012181eacade4ea242c65f804720f, type: 3}
@@ -3328,6 +3361,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 91082544716850630, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: OnBreak.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayClip
+      objectReference: {fileID: 0}
+    - target: {fileID: 91082544716850630, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: OnBreak.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetTutorialComplete
       objectReference: {fileID: 0}
@@ -3363,25 +3400,29 @@ PrefabInstance:
       propertyPath: OnBreak.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 921064087510636366, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: Vase 2
       objectReference: {fileID: 0}
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3429,11 +3470,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4758906752084112696, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Size.x
-      value: 20
+      value: 19.999998
       objectReference: {fileID: 0}
     - target: {fileID: 4758906752084112696, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Size.y
-      value: 30
+      value: 30.000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758906752084112696, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_Size.z
+      value: 21.309011
       objectReference: {fileID: 0}
     - target: {fileID: 4758906752084112696, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Center.x
@@ -3452,6 +3497,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+--- !u!1 &1526976145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1526976146}
+  m_Layer: 0
+  m_Name: Vase2HidingPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1526976146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526976145}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -33.84, z: -0.81}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1550105534
 GameObject:
   m_ObjectHideFlags: 0
@@ -5290,3 +5366,5 @@ SceneRoots:
   - {fileID: 51275567}
   - {fileID: 477853250}
   - {fileID: 477894434}
+  - {fileID: 833558298}
+  - {fileID: 1526976146}
