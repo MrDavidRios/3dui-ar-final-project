@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level Selector.unity
     guid: 031097625d4004e429355eeab56e5d56
+  - enabled: 0
+    path: Assets/Scenes/Level3-Moon-Flattened.unity
+    guid: bd79912d3a48a46aaadb6b9688dac041
+  - enabled: 1
+    path: Assets/Scenes/Level0 Tutorial.unity
+    guid: f81cff7a87ae347bea4239bd0faa8703
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f06516cda9bcd944497b68524c443e88, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bb8f9af7fdaa0144087b609f19b618dd, type: 2}

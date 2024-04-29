@@ -15,6 +15,8 @@ public class Level0Manager : ObjectiveTracker
     public GameObject promptVasePickupUI;
     public GameObject promptBatPickupUI;
 
+    private bool tutorialComplete;
+
     void Start()
     {
 
@@ -24,6 +26,7 @@ public class Level0Manager : ObjectiveTracker
         TurnOnPromptPickupVaseUI();
         TurnOffPromptPickupBatUI();
 
+        tutorialComplete = false;
         // subscribe event handlers to vaseInstance1 and vaseInstance2
         // need to update vaseInstance1 and 2 get componenet
         //Breakable breakable1 = vaseInstance1.GetComponent<Breakable>();
@@ -60,11 +63,6 @@ public class Level0Manager : ObjectiveTracker
         bat.SetActive(true);
     }
 
-    public void TutorialComplete()
-    {
-        TurnOffPromptPickupBatUI();
-        OnObjectiveCompleted();
-    }
 
     public void DisplaySmashScroll()
     {
@@ -88,7 +86,10 @@ public class Level0Manager : ObjectiveTracker
 
     public void TurnOnVase2()
     {
-        vaseInstance2.SetActive(true);
+        if (!tutorialComplete)
+        {
+            vaseInstance2.SetActive(true);
+        }
     }
 
     public void TurnOffVase2()
@@ -114,5 +115,26 @@ public class Level0Manager : ObjectiveTracker
     public void TurnOffPromptPickupBatUI()
     {
         promptBatPickupUI.SetActive(false);
+    }
+
+    public void SetTutorialComplete()
+    {
+        tutorialComplete = true;
+        TurnOffPromptPickupBatUI();
+        OnObjectiveCompleted();
+    }
+
+
+    public void Vase2Destroyed()
+    {
+        StartCoroutine(Vase2Disappear());
+    }
+
+    private IEnumerator Vase2Disappear()
+    {
+        // Wait for X seconds
+        yield return new WaitForSeconds(2.5f);
+
+        vaseInstance2.SetActive(false);
     }
 }
