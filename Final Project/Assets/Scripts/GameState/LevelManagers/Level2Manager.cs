@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class Level2Manager : ObjectDestructionTracker
 {
@@ -49,7 +46,7 @@ public class Level2Manager : ObjectDestructionTracker
 
         if (totalCount <= 0)
         {
-            OnObjectiveCompleted(); // trigger completion event - bring up menu? 
+            OnObjectiveCompleted(hitCount);
         }
     }
 

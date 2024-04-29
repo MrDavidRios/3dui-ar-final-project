@@ -1,40 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Level1Manager : ObjectDestructionTracker
 {
-
-    private int totalCount = 0;
+    private int totalObjectsDestroyed = 0;
+    private int breakableObjectAmount = 0;
 
     void Start()
     {
-        // find all breakable objects in scene
+        // Find all breakable objects in scene
         GameObject[] relevantGameObjects = GetRelevantGameObjects();
+        breakableObjectAmount = relevantGameObjects.Length;
 
-        totalCount = relevantGameObjects.Length;
-
-        //Debug.Log(totalCount);
-
-        foreach(GameObject gameObject in relevantGameObjects)
+        foreach (GameObject gameObject in relevantGameObjects)
         {
             Breakable breakable = gameObject.GetComponent<Breakable>();
             if (breakable != null)
             {
-                breakable.OnBreak.AddListener(DecrementCount); // Add event listener to OnBreaks
+                breakable.OnBreak.AddListener(OnObjectBroken); // Add event listener to OnBreaks
             }
         }
 
     }
 
-    public void DecrementCount()
+    public void OnObjectBroken()
     {
-        totalCount -= 1;
-        //Debug.Log(totalCount);
+        totalObjectsDestroyed++;
 
-        if (totalCount <= 0)
+        if (breakableObjectAmount - totalObjectsDestroyed <= 0)
         {
-            OnObjectiveCompleted(); // trigger completion event - bring up menu? 
+            OnObjectiveCompleted(breakableObjectAmount);
         }
     }
 }

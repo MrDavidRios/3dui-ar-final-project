@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class TimeTracker : ObjectiveTracker
 {
-
     public TMP_Text timeText;
 
     private float timeRemaining = -100f;
@@ -28,12 +25,12 @@ public class TimeTracker : ObjectiveTracker
 
     private void Update()
     {
-        if(timeRemaining <= 0f)
-            OnObjectiveCompleted(score);
-        else
-            timeRemaining -= Time.deltaTime;
-        timeText.text = ((int)timeRemaining).ToString();
+        if (timeRemaining <= 0f)
+            OnObjectiveFailed(score);
 
-        Debug.Log("Time: " + timeRemaining);
+        timeRemaining -= Time.deltaTime;
+
+        timeText.text = ((int)timeRemaining).ToString();
+        Debug.Log("Time left: " + timeRemaining);
     }
 }

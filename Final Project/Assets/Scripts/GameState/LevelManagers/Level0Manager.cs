@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Level0Manager : ObjectiveTracker
@@ -121,7 +120,7 @@ public class Level0Manager : ObjectiveTracker
     {
         tutorialComplete = true;
         TurnOffPromptPickupBatUI();
-        OnObjectiveCompleted();
+        OnObjectiveCompleted(0);
     }
 
 

@@ -3603,7 +3603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13572b5bdf347694f9c2613a06035e32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reaction:
+  completionReaction:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1820661861}
@@ -3625,6 +3625,21 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  failureReaction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1820661861}
+        m_TargetAssemblyTypeName: ToggleUI, Assembly-CSharp
+        m_MethodName: Enable
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1906421355}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

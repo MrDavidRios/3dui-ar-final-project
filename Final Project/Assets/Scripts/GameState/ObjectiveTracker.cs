@@ -1,20 +1,21 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class ObjectiveTracker : MonoBehaviour
 {
-    public static Action ObjectiveCompleted;
-    public static Action<int> ObjectiveCompletedWithScore; // Event with score parameter
+    // Objective Completed
+    public static Action<int> ObjectiveCompleted;
 
-    protected void OnObjectiveCompleted()
-    {
-        ObjectiveCompleted?.Invoke();
-    }
+    // Objective Failed
+    public static Action<int> ObjectiveFailed;
 
     protected void OnObjectiveCompleted(int score)
     {
-        ObjectiveCompletedWithScore?.Invoke(score);
+        ObjectiveCompleted?.Invoke(score);
+    }
+
+    protected void OnObjectiveFailed(int score)
+    {
+        ObjectiveFailed?.Invoke(score);
     }
 }
