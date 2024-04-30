@@ -3696,6 +3696,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  breakType: 0
 --- !u!65 &1079429496800560677
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3715,8 +3716,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 11.319191, y: 33.50538, z: 21.309013}
-  m_Center: {x: 1.6066408, y: 15.089403, z: -2.999445}
+  m_Size: {x: 14.2689905, y: 29.366795, z: 14.521749}
+  m_Center: {x: -0.19934984, y: 15.0894, z: -0.59906363}
 --- !u!114 &92654299602524661
 MonoBehaviour:
   m_ObjectHideFlags: 0

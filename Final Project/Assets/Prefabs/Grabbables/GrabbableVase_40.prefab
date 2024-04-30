@@ -1075,6 +1075,30 @@ PrefabInstance:
     m_TransformParent: {fileID: 2064657691366578697}
     m_Modifications:
     - target: {fileID: 893137685034609356, guid: 959c9cfe69ca847e3917e202c66739f1, type: 3}
+      propertyPath: m_Size.x
+      value: 14.829186
+      objectReference: {fileID: 0}
+    - target: {fileID: 893137685034609356, guid: 959c9cfe69ca847e3917e202c66739f1, type: 3}
+      propertyPath: m_Size.y
+      value: 29.22489
+      objectReference: {fileID: 0}
+    - target: {fileID: 893137685034609356, guid: 959c9cfe69ca847e3917e202c66739f1, type: 3}
+      propertyPath: m_Size.z
+      value: 15.487579
+      objectReference: {fileID: 0}
+    - target: {fileID: 893137685034609356, guid: 959c9cfe69ca847e3917e202c66739f1, type: 3}
+      propertyPath: m_Center.x
+      value: -0.14835371
+      objectReference: {fileID: 0}
+    - target: {fileID: 893137685034609356, guid: 959c9cfe69ca847e3917e202c66739f1, type: 3}
+      propertyPath: m_Center.y
+      value: 15.260622
+      objectReference: {fileID: 0}
+    - target: {fileID: 893137685034609356, guid: 959c9cfe69ca847e3917e202c66739f1, type: 3}
+      propertyPath: m_Center.z
+      value: -0.088724904
+      objectReference: {fileID: 0}
+    - target: {fileID: 893137685034609356, guid: 959c9cfe69ca847e3917e202c66739f1, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
