@@ -25,7 +25,7 @@ public class Level2Manager : ObjectDestructionTracker
 
         foreach (GameObject gameObject in relevantGameObjects)
         {
-            Breakable breakable = gameObject.GetComponent<Breakable>();
+            Breakable breakable = gameObject.GetComponentInChildren<Breakable>();
             if (breakable != null)
             {
                 breakable.OnBreak.AddListener(DecrementCount); // Add event listener to OnBreak
@@ -42,10 +42,10 @@ public class Level2Manager : ObjectDestructionTracker
     public void DecrementCount()
     {
         totalCount -= 1;
-        Debug.Log(totalCount);
 
         if (totalCount <= 0)
         {
+            timeTracker.StopCountdown();
             OnObjectiveCompleted(hitCount);
         }
     }

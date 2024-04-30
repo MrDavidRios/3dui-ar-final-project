@@ -13,12 +13,14 @@ public class Level1Manager : ObjectDestructionTracker
 
         foreach (GameObject gameObject in relevantGameObjects)
         {
-            Breakable breakable = gameObject.GetComponent<Breakable>();
+            Breakable breakable = gameObject.GetComponentInChildren<Breakable>();
             if (breakable != null)
             {
                 breakable.OnBreak.AddListener(OnObjectBroken); // Add event listener to OnBreaks
             }
         }
+
+        Debug.Log("Total number of vases: " + breakableObjectAmount);
 
     }
 
@@ -26,8 +28,11 @@ public class Level1Manager : ObjectDestructionTracker
     {
         totalObjectsDestroyed++;
 
+        Debug.Log("totalObjectsDestroyed:" + totalObjectsDestroyed);
+
         if (breakableObjectAmount - totalObjectsDestroyed <= 0)
         {
+            Debug.Log("REACHED");
             OnObjectiveCompleted(breakableObjectAmount);
         }
     }
