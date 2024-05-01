@@ -6,6 +6,8 @@ public class TimeTracker : ObjectiveTracker
     public TMP_Text timeText;
     public TMP_Text scoreUIText;
 
+    public Level2Manager level2Manger;
+
     private float timeRemaining = -100f;
     private int score = 0; // to pass from Level2Manager to OnObjectiveCompleted()
 
@@ -40,6 +42,7 @@ public class TimeTracker : ObjectiveTracker
 
         if (timeRemaining <= 0f)
         {
+            level2Manger.MakeAllUnbreakable();
             scoreUIText.text = "You destroyed " + score + " objects!";
             OnObjectiveFailed(score);
             return;

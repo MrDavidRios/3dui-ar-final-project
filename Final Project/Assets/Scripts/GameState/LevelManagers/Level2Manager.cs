@@ -1,5 +1,7 @@
 using UnityEngine;
 
+using System.Collections.Generic;
+
 public class Level2Manager : ObjectDestructionTracker
 {
     private int totalCount = 0;
@@ -7,6 +9,8 @@ public class Level2Manager : ObjectDestructionTracker
 
     [SerializeField] private TimeTracker timeTracker;
     [SerializeField] private float countdownTime = 60f;
+
+    private List<Breakable> breakables = new List<Breakable>();
 
     void Start()
     {
@@ -30,6 +34,7 @@ public class Level2Manager : ObjectDestructionTracker
             {
                 breakable.OnBreak.AddListener(DecrementCount); // Add event listener to OnBreak
                 breakable.OnBreak.AddListener(IncrementScore); // Add event listener to OnBreak
+                breakables.Add(breakable);
             }
         }
 
@@ -56,6 +61,14 @@ public class Level2Manager : ObjectDestructionTracker
         if (timeTracker != null)
         {
             timeTracker.SetScore(hitCount); // Update the score in TimeTracker
+        }
+    }
+
+    public void MakeAllUnbreakable()
+    {
+        foreach (Breakable breakable in breakables)
+        {
+            breakable.MakeUnbreakable();
         }
     }
 }

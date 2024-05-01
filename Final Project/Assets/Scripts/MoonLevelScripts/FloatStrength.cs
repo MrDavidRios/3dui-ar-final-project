@@ -16,7 +16,6 @@ public class FloatStrength : MonoBehaviour
         {
             rb = gameObject.AddComponent<Rigidbody>();  // Ensure there's a Rigidbody component
         }
-        rb.useGravity = true;  // Ensure gravity is on if not already set
     }
 
     void Update()

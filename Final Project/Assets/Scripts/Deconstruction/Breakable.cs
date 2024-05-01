@@ -19,6 +19,9 @@ public class Breakable : MonoBehaviour
     private Rigidbody rb;
     private List<Rigidbody> childRigidbodies;
 
+    // NEW:
+    private bool isBreakable = true; // Used in other functions to stop breaking after objective completed
+
     private enum BreakType
     {
         Replace,
@@ -96,6 +99,7 @@ public class Breakable : MonoBehaviour
 
     public void Break([CanBeNull] Collider collider)
     {
+        if (!isBreakable) return;
         OnBreak?.Invoke();
         switch (breakType)
         {
@@ -117,6 +121,12 @@ public class Breakable : MonoBehaviour
             default:
                 throw new ArgumentOutOfRangeException();
         }
+    }
+
+    // NEW:
+    public void MakeUnbreakable()
+    {
+        isBreakable = false;
     }
 
     void HandleImpact(Vector3 impactPoint, Vector3 impactForce, Collider otherCollider)

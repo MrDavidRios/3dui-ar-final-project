@@ -10,15 +10,6 @@ public class ObjectDestructionTracker : ObjectiveTracker
 
     public GameObject objectParent;
 
-    //void Update()
-    //{
-    //    GameObject[] relevantGameObjects = GetRelevantGameObjects();
-    //    bool relevantObjectsDestroyed = CheckIfObjectsAreDestroyed(relevantGameObjects);
-
-    //    if (relevantObjectsDestroyed)
-    //        OnObjectiveCompleted();
-    //}
-
     protected GameObject[] GetRelevantGameObjects()
     {
         return trackSpecificObjects ? objectsToTrack : GetChildren(objectParent);
