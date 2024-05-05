@@ -400,6 +400,18 @@ PrefabInstance:
       value: GrabbableVase_40 (103)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.500001
       objectReference: {fileID: 0}
@@ -439,6 +451,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -455,6 +471,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -495,6 +523,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -621,6 +653,18 @@ PrefabInstance:
       value: GrabbableVase_40 (92)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.500003
       objectReference: {fileID: 0}
@@ -659,6 +703,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -826,6 +874,18 @@ PrefabInstance:
       value: GrabbableVase_10 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.500001
       objectReference: {fileID: 0}
@@ -865,6 +925,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -886,6 +950,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -927,6 +1003,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -943,6 +1023,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -984,6 +1076,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1000,6 +1096,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1041,6 +1149,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1057,6 +1169,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1098,6 +1222,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1114,6 +1242,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1154,6 +1294,10 @@ PrefabInstance:
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1339,6 +1483,18 @@ PrefabInstance:
       value: GrabbableVase_40 (34)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.500001
       objectReference: {fileID: 0}
@@ -1378,6 +1534,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1394,6 +1554,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1435,6 +1607,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1456,6 +1632,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1497,6 +1685,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1513,6 +1705,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1554,6 +1758,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1570,6 +1778,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1611,6 +1831,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1627,6 +1851,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1667,6 +1903,10 @@ PrefabInstance:
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1977,6 +2217,18 @@ PrefabInstance:
       value: GrabbableVase_40 (101)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.5000014
       objectReference: {fileID: 0}
@@ -2016,6 +2268,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2047,6 +2303,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2088,6 +2356,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2104,6 +2376,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2145,6 +2429,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2161,6 +2449,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2202,6 +2502,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2218,6 +2522,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2258,6 +2574,10 @@ PrefabInstance:
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2680,6 +3000,18 @@ PrefabInstance:
       value: GrabbableVase_40 (96)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5000024
       objectReference: {fileID: 0}
@@ -2718,6 +3050,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2960,6 +3296,18 @@ PrefabInstance:
       value: GrabbableVase_40 (89)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5000024
       objectReference: {fileID: 0}
@@ -2999,6 +3347,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3015,6 +3367,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3055,6 +3419,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3348,6 +3716,18 @@ PrefabInstance:
       value: GrabbableVase_40 (54)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.500001
       objectReference: {fileID: 0}
@@ -3387,6 +3767,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3403,6 +3787,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3443,6 +3839,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3636,6 +4036,18 @@ PrefabInstance:
       value: GrabbableVase_40 (48)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5000005
       objectReference: {fileID: 0}
@@ -3674,6 +4086,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3814,6 +4230,18 @@ PrefabInstance:
       value: GrabbableVase_40 (77)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5000014
       objectReference: {fileID: 0}
@@ -3852,6 +4280,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3949,6 +4381,18 @@ PrefabInstance:
       value: GrabbableVase_40 (13)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5000005
       objectReference: {fileID: 0}
@@ -3988,6 +4432,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4004,6 +4452,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4045,6 +4505,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5842267119083413836, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4065,6 +4529,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4106,6 +4582,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4122,6 +4602,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4162,6 +4654,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4261,6 +4757,18 @@ PrefabInstance:
       value: GrabbableVase_40 (73)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.5000014
       objectReference: {fileID: 0}
@@ -4299,6 +4807,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4462,6 +4974,18 @@ PrefabInstance:
       value: GrabbableVase_10 (16)
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5000024
       objectReference: {fileID: 0}
@@ -4501,6 +5025,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4517,6 +5045,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4557,6 +5097,10 @@ PrefabInstance:
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4710,6 +5254,18 @@ PrefabInstance:
       value: GrabbableVase_40 (30)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5000005
       objectReference: {fileID: 0}
@@ -4749,6 +5305,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4765,6 +5325,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4806,6 +5378,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4827,6 +5403,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4868,6 +5456,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4889,6 +5481,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4929,6 +5533,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5081,6 +5689,18 @@ PrefabInstance:
       value: GrabbableVase_40 (50)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5000005
       objectReference: {fileID: 0}
@@ -5119,6 +5739,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5347,6 +5971,18 @@ PrefabInstance:
       value: GrabbableVase_40 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5000002
       objectReference: {fileID: 0}
@@ -5385,6 +6021,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5656,6 +6296,18 @@ PrefabInstance:
       value: GrabbableVase_40 (72)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.500001
       objectReference: {fileID: 0}
@@ -5695,6 +6347,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5716,6 +6372,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5757,6 +6425,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5773,6 +6445,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5813,6 +6497,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6005,6 +6693,18 @@ PrefabInstance:
       value: GrabbableVase_40 (98)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.500003
       objectReference: {fileID: 0}
@@ -6043,6 +6743,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6746,6 +7450,18 @@ PrefabInstance:
       value: GrabbableVase_40 (81)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.500003
       objectReference: {fileID: 0}
@@ -6785,6 +7501,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6801,6 +7521,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6842,6 +7574,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6858,6 +7594,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6899,6 +7647,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6915,6 +7667,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6955,6 +7719,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7011,6 +7779,18 @@ PrefabInstance:
       value: GrabbableVase_40 (61)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.500001
       objectReference: {fileID: 0}
@@ -7050,6 +7830,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7066,6 +7850,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7106,6 +7902,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7152,6 +7952,18 @@ PrefabInstance:
       value: GrabbableVase_10 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.5000014
       objectReference: {fileID: 0}
@@ -7191,6 +8003,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7207,6 +8023,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7248,6 +8076,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7269,6 +8101,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7309,6 +8153,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7375,6 +8223,18 @@ PrefabInstance:
       value: GrabbableVase_40 (28)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5000005
       objectReference: {fileID: 0}
@@ -7414,6 +8274,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7435,6 +8299,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7476,6 +8352,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7492,6 +8372,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7533,6 +8425,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7554,6 +8450,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7594,6 +8502,10 @@ PrefabInstance:
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7800,6 +8712,18 @@ PrefabInstance:
       value: GrabbableVase_10 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5000005
       objectReference: {fileID: 0}
@@ -7839,6 +8763,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7855,6 +8783,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7896,6 +8836,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7912,6 +8856,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7953,6 +8909,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7969,6 +8929,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8009,6 +8981,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8151,6 +9127,18 @@ PrefabInstance:
       value: GrabbableVase_40 (51)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5000001
       objectReference: {fileID: 0}
@@ -8190,6 +9178,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8216,6 +9208,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8257,6 +9261,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8273,6 +9281,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8313,6 +9333,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8422,6 +9446,18 @@ PrefabInstance:
       value: GrabbableVase_40 (99)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.500002
       objectReference: {fileID: 0}
@@ -8460,6 +9496,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8976,6 +10016,18 @@ PrefabInstance:
       value: GrabbableVase_10
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5000024
       objectReference: {fileID: 0}
@@ -9015,6 +10067,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9041,6 +10097,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9082,6 +10150,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9098,6 +10170,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9139,6 +10223,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9155,6 +10243,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9196,6 +10296,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9212,6 +10316,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9252,6 +10368,10 @@ PrefabInstance:
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9357,6 +10477,18 @@ PrefabInstance:
       value: GrabbableVase_40 (93)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5000024
       objectReference: {fileID: 0}
@@ -9396,6 +10528,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9417,6 +10553,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9457,6 +10605,10 @@ PrefabInstance:
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9591,6 +10743,18 @@ PrefabInstance:
       value: GrabbableVase_40 (45)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5000005
       objectReference: {fileID: 0}
@@ -9630,6 +10794,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9651,6 +10819,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9691,6 +10871,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9820,6 +11004,18 @@ PrefabInstance:
       value: GrabbableVase_40 (68)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.500001
       objectReference: {fileID: 0}
@@ -9858,6 +11054,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10021,6 +11221,18 @@ PrefabInstance:
       value: GrabbableVase_10 (20)
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.50000006
       objectReference: {fileID: 0}
@@ -10060,6 +11272,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10076,6 +11292,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10117,6 +11345,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10133,6 +11365,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10173,6 +11417,10 @@ PrefabInstance:
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10233,6 +11481,18 @@ PrefabInstance:
       value: GrabbableVase_40 (58)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.500001
       objectReference: {fileID: 0}
@@ -10272,6 +11532,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10303,6 +11567,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10344,6 +11620,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10370,6 +11650,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10411,6 +11703,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10432,6 +11728,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10473,6 +11781,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10489,6 +11801,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10530,6 +11854,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10546,6 +11874,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10586,6 +11926,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10878,6 +12222,18 @@ PrefabInstance:
       value: GrabbableVase_10 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.500003
       objectReference: {fileID: 0}
@@ -10917,6 +12273,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10933,6 +12293,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10973,6 +12345,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11137,6 +12513,18 @@ PrefabInstance:
       value: GrabbableVase_40 (90)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.500003
       objectReference: {fileID: 0}
@@ -11175,6 +12563,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11441,6 +12833,18 @@ PrefabInstance:
       value: GrabbableVase_40 (95)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.500003
       objectReference: {fileID: 0}
@@ -11479,6 +12883,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11678,6 +13086,18 @@ PrefabInstance:
       value: GrabbableVase_40 (33)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.500001
       objectReference: {fileID: 0}
@@ -11717,6 +13137,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11733,6 +13157,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11773,6 +13209,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12021,6 +13461,18 @@ PrefabInstance:
       value: GrabbableVase_40 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5000005
       objectReference: {fileID: 0}
@@ -12059,6 +13511,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12397,6 +13853,18 @@ PrefabInstance:
       value: GrabbableVase_40 (52)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.500001
       objectReference: {fileID: 0}
@@ -12436,6 +13904,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12452,6 +13924,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12492,6 +13976,10 @@ PrefabInstance:
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12610,6 +14098,18 @@ PrefabInstance:
       value: GrabbableVase_40 (16)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5000001
       objectReference: {fileID: 0}
@@ -12649,6 +14149,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12665,6 +14169,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12706,6 +14222,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12727,6 +14247,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12768,6 +14300,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12789,6 +14325,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12830,6 +14378,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12846,6 +14398,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12887,6 +14451,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12903,6 +14471,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12944,6 +14524,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12960,6 +14544,18 @@ PrefabInstance:
     - target: {fileID: 7137538661494563426, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_10 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13001,6 +14597,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9171016249910615839, guid: 41211ea798a9582499f78b49886a9464, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13017,6 +14617,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13058,6 +14670,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13074,6 +14690,18 @@ PrefabInstance:
     - target: {fileID: 1889860865084117735, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_Name
       value: GrabbableVase_40 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13114,6 +14742,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13538,6 +15170,18 @@ PrefabInstance:
       value: GrabbableVase_40 (43)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.500001
       objectReference: {fileID: 0}
@@ -13576,6 +15220,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13631,6 +15279,18 @@ PrefabInstance:
       value: GrabbableVase_40 (79)
       objectReference: {fileID: 0}
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.500003
       objectReference: {fileID: 0}
@@ -13669,6 +15329,10 @@ PrefabInstance:
     - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204763024898929894, guid: 97e04271c10c3284bbec7f6504d6bbde, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
