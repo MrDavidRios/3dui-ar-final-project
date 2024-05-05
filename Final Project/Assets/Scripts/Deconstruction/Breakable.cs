@@ -26,6 +26,7 @@ public class Breakable : MonoBehaviour
 
  // NEW:
     private bool isBreakable = true; // Used in other functions to stop breaking after objective completed
+    private bool isBroken = false;
 
 
     private enum BreakType
@@ -91,8 +92,11 @@ public class Breakable : MonoBehaviour
 
     public void Break(Collider collider)
     {
-        if (!isBreakable) return; // new here as well
+        if (!isBreakable || isBroken) return; // new here as well
+
         OnBreak?.Invoke();
+        isBroken = true;
+
         switch (breakType)
         {
             case BreakType.Replace:

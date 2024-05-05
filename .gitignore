@@ -72,8 +72,8 @@ crashlytics-build.properties
 **/[Aa]ssets/[Ss]treamingAssets/aa/*
 .DS_Store
 
-**/TextMesh Pro
-**/TextMesh Pro.meta
+# **/TextMesh Pro
+# **/TextMesh Pro.meta
 **/Samples
 **/Samples.meta
 **/.idea
