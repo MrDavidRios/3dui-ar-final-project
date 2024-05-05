@@ -32,8 +32,12 @@ public class FloatingSetup : MonoBehaviour
 
     private void CreateWallEs()
     {
-        Bounds bounds = terrainBounds.GetComponent<Renderer>().bounds; 
-        int randomWallEIndex = Random.Range(0, numberOfWallEs); // generate rand index for goldenWallE
+        Bounds bounds = terrainBounds.GetComponent<Renderer>().bounds;
+        //int randomWallEIndex = Random.Range(0, numberOfWallEs); // generate rand index for goldenWallE
+
+        // Not including golden wall-E right now
+
+        int randomWallEIndex = -1;
 
         for (int i = 0; i < numberOfWallEs; i++)
         {
