@@ -83,7 +83,8 @@ public class MultiPyramidGenerator : MonoBehaviour
                     if (containsGoldWallE && layer == goldLayer && x == goldX && z == goldZ)
                     {
                         // Place the gold WallE at the randomly chosen position
-                        Instantiate(goldWallEPrefab, position, Quaternion.identity, pyramidParent.transform);
+                        GameObject goldWallE = Instantiate(goldWallEPrefab, position, Quaternion.identity, pyramidParent.transform);
+                        goldWallE.SetActive(true);
                     }
                     else
                     {
