@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10604,6 +10604,7 @@ GameObject:
   - component: {fileID: 1716739439}
   - component: {fileID: 1716739438}
   - component: {fileID: 1716739437}
+  - component: {fileID: 1716739440}
   m_Layer: 0
   m_Name: ISDK_RayInteraction
   m_TagString: Untagged
@@ -10688,6 +10689,18 @@ MonoBehaviour:
   _selectSurface: {fileID: 1498778245}
   _movementProvider: {fileID: 0}
   _tiebreakerScore: 0
+--- !u!114 &1716739440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716739435}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b0221c1168be34c815f78733830bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1717081666
 GameObject:
   m_ObjectHideFlags: 0

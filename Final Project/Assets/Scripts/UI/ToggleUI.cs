@@ -18,11 +18,13 @@ public class ToggleUI : MonoBehaviour
             canvasTransform.rotation = Camera.main.transform.rotation;
         }
         UIObject.SetActive(true);
+        GameObject.Find("ISDK_RayInteraction").GetComponent<LockOnCamera>().enabled = true;
     }
 
     public void Disable(GameObject UIObject)
     {
         UIObject.SetActive(false);
+        GameObject.Find("ISDK_RayInteraction").GetComponent<LockOnCamera>().enabled = false;
     }
 
     public void Toggle(GameObject UIObject)
