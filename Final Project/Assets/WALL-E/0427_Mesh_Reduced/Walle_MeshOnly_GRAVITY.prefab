@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -8591582867255485849}
   - component: {fileID: 2036837728044430010}
   - component: {fileID: 3716558432895646761}
+  - component: {fileID: 7151889174628033909}
   - component: {fileID: 7444529974331964456}
   m_Layer: 0
   m_Name: Walle_MeshOnly_GRAVITY
@@ -163,6 +164,20 @@ MonoBehaviour:
   randomRotationStrength: 0
   bounceAmplitude: 0.05
   bounceFrequency: 1
+--- !u!114 &7151889174628033909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974893567716494570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e484ee254ed2c0b4cbd28b9c9239ce8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableWallEPrefab: {fileID: 5114984080069306701, guid: 33f91469db546a64493ce29c325819e7, type: 3}
+  proximityDistance: 5
 --- !u!65 &7444529974331964456
 BoxCollider:
   m_ObjectHideFlags: 0

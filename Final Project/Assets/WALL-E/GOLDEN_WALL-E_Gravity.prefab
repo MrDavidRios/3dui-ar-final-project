@@ -10118,6 +10118,7 @@ GameObject:
   - component: {fileID: 7312796933451406109}
   - component: {fileID: 5121393093459485841}
   - component: {fileID: -6212973659529029297}
+  - component: {fileID: 3132962378031766080}
   m_Layer: 0
   m_Name: GOLDEN_WALL-E_Gravity
   m_TagString: Untagged
@@ -10305,6 +10306,19 @@ MonoBehaviour:
   randomRotationStrength: 0.2
   bounceAmplitude: 0.1
   bounceFrequency: 1
+--- !u!114 &3132962378031766080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7976594097071845187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266caefbed37b9042b46bec8790855a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPrefab: {fileID: 0}
 --- !u!1 &8120515670811776902
 GameObject:
   m_ObjectHideFlags: 0

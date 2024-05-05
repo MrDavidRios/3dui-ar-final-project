@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6425721698815394329}
   - component: {fileID: 3962129050076772842}
   - component: {fileID: 7444529974331964456}
+  - component: {fileID: 211975029429158256}
   m_Layer: 0
   m_Name: Walle_MeshOnly
   m_TagString: Untagged
@@ -139,3 +140,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.85137993, y: 0.92300284, z: 0.6483164}
   m_Center: {x: -0.0004118085, y: -0.019082412, z: -0.05844927}
+--- !u!114 &211975029429158256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974893567716494570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e484ee254ed2c0b4cbd28b9c9239ce8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableWallEPrefab: {fileID: 5114984080069306701, guid: 9a6f8c464c0a98748bcdb51a3e7bed52, type: 3}
+  proximityDistance: 5

@@ -1,26 +1,32 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Events;
-
 
 [SelectionBase]
 public class Breakable : MonoBehaviour
 {
     [SerializeField] GameObject originalObject;
     [SerializeField] GameObject brokenObject;
-    float break_threshold = 0.4f;
-    float impactRadius = 0.3f; // Radius around the hit point to affect pieces
+    [SerializeField] GameObject originalParent; 
+    [SerializeField] GameObject grandParent;
+    float break_threshold = 0.025f;
+    float impactRadius = 0.001f;
     [SerializeField] public UnityEvent OnBreak;
 
     BoxCollider bc;
     private Rigidbody rb;
     private List<Rigidbody> childRigidbodies;
 
-    // NEW:
+    [SerializeField] float floatingForce = 2.0f; // default floating force
+    [SerializeField] bool useCustomGravity = true; 
+    [SerializeField] string bodyTag = "Body";
+
+    [SerializeField] private AudioSource breakSound; // for Wall-E only (detach type)
+
+ // NEW:
     private bool isBreakable = true; // Used in other functions to stop breaking after objective completed
+
 
     private enum BreakType
     {
@@ -41,24 +47,19 @@ public class Breakable : MonoBehaviour
                 {
                     rb = gameObject.AddComponent<Rigidbody>();
                 }
-
                 rb.isKinematic = false;
                 rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
-
                 childRigidbodies = new List<Rigidbody>(GetComponentsInChildren<Rigidbody>());
                 foreach (var childRb in childRigidbodies)
                 {
                     childRb.isKinematic = true;
-                    childRb.collisionDetectionMode = CollisionDetectionMode.Continuous;
                 }
-
                 break;
             case BreakType.Replace:
                 originalObject.SetActive(true);
                 brokenObject.SetActive(false);
                 break;
         }
-
     }
 
     private void OnMouseDown()
@@ -66,26 +67,17 @@ public class Breakable : MonoBehaviour
         Break(null);
     }
 
-    public void BreakObject(GameObject breakerObj, [CanBeNull] Collider collider)
+    public void BreakObject(GameObject breakerObj, Collider collider)
     {
         Breaker breaker = breakerObj.GetComponent<Breaker>();
-        if (breaker != null)
+        if (breaker != null && breaker.Velocity.magnitude > break_threshold)
         {
-            Vector3 velocity = breaker.Velocity;
-            float speed = velocity.magnitude;
-            if (speed > break_threshold)
-            {
-                breaker.HitObject();
-                Break(collider);
-            }
-            else
-            {
-                Debug.Log("Speed not enough to break " + speed);
-            }
+            breaker.HitObject();
+            Break(collider);
         }
         else
         {
-            Debug.Log("Breaker script not found");
+            Debug.Log("Speed not enough to break " + breaker.Velocity.magnitude);
         }
     }
 
@@ -97,9 +89,9 @@ public class Breakable : MonoBehaviour
         }
     }
 
-    public void Break([CanBeNull] Collider collider)
+    public void Break(Collider collider)
     {
-        if (!isBreakable) return;
+        if (!isBreakable) return; // new here as well
         OnBreak?.Invoke();
         switch (breakType)
         {
@@ -109,25 +101,45 @@ public class Breakable : MonoBehaviour
                 bc.enabled = false;
                 break;
             case BreakType.Detach:
+
+                if (breakSound != null)
+                    breakSound.Play();
                 if (collider == null)
                 {
                     Debug.LogError("No collider found");
-                    break;
+                    return;
                 }
-
                 Vector3 impactPoint = collider.ClosestPoint(transform.position);
                 HandleImpact(impactPoint, collider.GetComponent<Breaker>().Velocity, collider);
+                GroupUnaffectedSiblings();
+                DetachAllSiblings();
+                //  DetachGrandChildren();// Fixed: No argument passed // keep this note don't delete
+                ApplyFloatingAndRotationToParent();
                 break;
-            default:
-                throw new ArgumentOutOfRangeException();
         }
     }
+
+
 
     // NEW:
     public void MakeUnbreakable()
     {
         isBreakable = false;
     }
+
+    // for inactive after 7 sec
+    void ScheduleDeactivation(GameObject obj)
+    {
+        StopCoroutine("DeactivateAfterDelay"); 
+        StartCoroutine(DeactivateAfterDelay(obj, 7f));
+    }
+
+    IEnumerator DeactivateAfterDelay(GameObject obj, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        obj.SetActive(false);
+    }
+
 
     void HandleImpact(Vector3 impactPoint, Vector3 impactForce, Collider otherCollider)
     {
@@ -137,35 +149,179 @@ public class Breakable : MonoBehaviour
             if (Vector3.Distance(childRb.position, impactPoint) <= impactRadius)
             {
                 affectedRigidbodies.Add(childRb);
+                MakeFloatAndRotate(childRb); 
             }
         }
 
-        // Check adjacency based on actual touching colliders, not just distance
-        HashSet<Rigidbody> touchingRigidbodies = new HashSet<Rigidbody>();
         foreach (var rb in affectedRigidbodies)
         {
-            Collider[] rbColliders = rb.GetComponents<Collider>();
-            foreach (var rbCollider in rbColliders)
+            DetachPiece(rb, impactForce);
+
+            // remember the "Body" tag
+            if (rb.CompareTag("Body"))
             {
-                if (rbCollider.bounds.Intersects(otherCollider.bounds))
+                DetachAllSiblings();
+                DetachGrandChildren();
+            }
+        }
+    }
+
+
+    void DetachPiece(Rigidbody pieceRb, Vector3 force)
+    {
+        pieceRb.transform.SetParent(null);
+        pieceRb.isKinematic = false;
+        pieceRb.useGravity = true;
+        pieceRb.detectCollisions = true;
+        pieceRb.AddForce(force, ForceMode.Impulse);
+        MakeFloatAndRotate(pieceRb);
+
+        SetParentsNonKinematic(pieceRb.transform);
+
+        // deactivate
+        ScheduleDeactivation(pieceRb.gameObject);
+
+        if (pieceRb.CompareTag(bodyTag))
+        {
+            Debug.Log("Detaching the body's siblings and grandchildren");
+            DetachAllSiblings();
+            DetachGrandChildren();
+        }
+    }
+
+
+
+
+    void GroupUnaffectedSiblings()
+    {
+        GameObject newParent = new GameObject("NewGroup");
+        Rigidbody newParentRb = newParent.AddComponent<Rigidbody>();
+        newParentRb.isKinematic = false;
+
+        foreach (Transform sibling in originalParent.transform)
+        {
+            if (!childRigidbodies.Contains(sibling.GetComponent<Rigidbody>()))
+            {
+                sibling.SetParent(newParent.transform);
+                Rigidbody childRb = sibling.GetComponent<Rigidbody>();
+                if (childRb != null)
                 {
-                    touchingRigidbodies.Add(rb);
-                    break;
+                    childRb.isKinematic = false;
+                    MakeFloatAndRotate(childRb);
+                     // deactivate
+                    ScheduleDeactivation(sibling.gameObject);
                 }
             }
         }
 
-        // Detach the pieces that are physically touching the bat collider
-        foreach (var rb in touchingRigidbodies)
+         // deactivate
+        ScheduleDeactivation(newParent);
+    }
+
+
+
+    void DetachAllSiblings()
+    {
+        foreach (Transform sibling in originalParent.transform)
         {
-            DetachPiece(rb, impactForce);
+            Rigidbody siblingRb = sibling.GetComponent<Rigidbody>();
+            if (siblingRb != null)
+            {
+                sibling.SetParent(null);
+                siblingRb.isKinematic = false;
+                MakeFloatAndRotate(siblingRb);
+
+                 // deactivate
+                ScheduleDeactivation(sibling.gameObject);
+            }
         }
     }
 
-    void DetachPiece(Rigidbody pieceRb, Vector3 force)
+
+    void DetachGrandChildren()
     {
-        pieceRb.transform.SetParent(null); // Detach from the parent object
-        pieceRb.isKinematic = false; // Allow it to be affected by physics
-        pieceRb.AddForce(force, ForceMode.Impulse);
+        if (grandParent == null)
+        {
+            Debug.LogError("Grand parent not assigned");
+            return;
+        }
+
+        foreach (Transform child in grandParent.transform)
+        {
+            Rigidbody childRb = child.GetComponent<Rigidbody>();
+            if (childRb != null)
+            {
+                child.SetParent(null);
+                childRb.isKinematic = false;
+                MakeFloatAndRotate(childRb);
+
+                 // deactivate
+                ScheduleDeactivation(child.gameObject);
+            }
+        }
+
+         // deactivate
+        ScheduleDeactivation(grandParent);
+    }
+
+
+
+
+
+    void SetParentsNonKinematic(Transform child)
+    {
+        Transform parent = child.parent;
+        while (parent != null)
+        {
+            Rigidbody parentRb = parent.GetComponent<Rigidbody>();
+            if (parentRb != null)
+            {
+                parentRb.isKinematic = false;
+                parent = parent.parent;
+            }
+            else
+            {
+                break;
+            }
+        }
+    }
+
+    void MakeFloatAndRotate(Rigidbody rb)
+    {
+        rb.useGravity = !useCustomGravity;
+
+        Vector3 randomDirection = Random.onUnitSphere;
+        randomDirection.y = Mathf.Abs(randomDirection.y);
+        Vector3 floatForce = randomDirection * floatingForce;
+
+        Vector3 randomTorque = Random.insideUnitSphere * floatingForce;
+
+        rb.AddForce(floatForce, ForceMode.Acceleration);
+        rb.AddTorque(randomTorque, ForceMode.Acceleration);
+    }
+
+    void ApplyFloatingAndRotationToParent()
+    {
+        if (grandParent == null)
+        {
+            return;
+        }
+
+        Rigidbody grandParentRb = grandParent.GetComponent<Rigidbody>();
+        if (grandParentRb == null)
+        {
+            grandParentRb = grandParent.AddComponent<Rigidbody>();
+        }
+
+        grandParentRb.useGravity = !useCustomGravity;
+
+        Vector3 randomDirection = Random.onUnitSphere;
+        randomDirection.y = Mathf.Abs(randomDirection.y);
+        Vector3 floatForce = randomDirection * floatingForce;
+
+        Vector3 randomTorque = Random.insideUnitSphere * floatingForce;
+
+        grandParentRb.AddForce(floatForce, ForceMode.Acceleration);
+        grandParentRb.AddTorque(randomTorque, ForceMode.Acceleration);
     }
 }
