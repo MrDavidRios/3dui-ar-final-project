@@ -8,9 +8,12 @@ public class ReplaceOnProximity : MonoBehaviour
     public float proximityDistance = 5f; 
     private GameObject breaker; 
 
+    private int replacementCount = 0; 
+    private float replacementTimer = 0f; 
+    private bool canReplace = true;
+
     void Start()
     {
-        
         breaker = GameObject.FindGameObjectWithTag("Breaker");
     }
 
@@ -18,20 +21,38 @@ public class ReplaceOnProximity : MonoBehaviour
     {
         if (breaker == null) return; 
 
-        
-        float distance = Vector3.Distance(breaker.transform.position, transform.position);
-        if (distance <= proximityDistance)
+        // Update the timer
+        if (replacementTimer > 0)
         {
-            ReplaceWithInteractableWallE();
+            replacementTimer -= Time.deltaTime;
+        }
+        else
+        {
+            // Reset count and allow replacements again after 5 seconds
+            canReplace = true;
+            replacementCount = 0;
+        }
+
+        if (canReplace && replacementCount < 3)
+        {
+            float distance = Vector3.Distance(breaker.transform.position, transform.position);
+            if (distance <= proximityDistance)
+            {
+                ReplaceWithInteractableWallE();
+                replacementCount++;
+                if (replacementCount >= 3)
+                {
+                    // Start the 5-second timer after reaching the limit
+                    replacementTimer = 5f;
+                    canReplace = false;
+                }
+            }
         }
     }
 
     void ReplaceWithInteractableWallE()
     {
-       
         GameObject interactableWallE = Instantiate(interactableWallEPrefab, transform.position, transform.rotation);
-
-        
         Destroy(gameObject);
     }
 }
