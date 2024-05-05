@@ -1,24 +1,31 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Events;
 
 public class ClickAndMove : MonoBehaviour
 {
+    public UnityEvent onHitEvent; 
+
     public GameObject targetPrefab; 
     private bool hasMoved = false;
     private float goldDuration = 2f; 
     private float targetDuration = 6f; 
+
     private void OnTriggerEnter(Collider other)
     {
         if (!hasMoved && other.CompareTag("Breaker"))
         {
-            // Move the gold prefab upwards by 5 units over 3 seconds
+           
             StartCoroutine(MoveUpward(transform, 0.5f, goldDuration));
             if (targetPrefab != null)
             {
-                // Move the target prefab upwards by 100 units over 5 seconds
+               
                 StartCoroutine(MoveTargetUpward(targetPrefab.transform, targetDuration));
             }
-            hasMoved = true; // Prevent further movement
+            hasMoved = true; 
+
+            
+            onHitEvent.Invoke();
         }
     }
 
@@ -35,7 +42,7 @@ public class ClickAndMove : MonoBehaviour
             yield return null;
         }
 
-        objectTransform.position = end; // Ensure the final position is set accurately
+        objectTransform.position = end; 
     }
 
     IEnumerator MoveTargetUpward(Transform targetTransform, float duration)
