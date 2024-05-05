@@ -23,28 +23,16 @@ public class Level0Manager : ObjectiveTracker
     {
 
         vaseInstance1.SetActive(true);
-        vaseInstance2.SetActive(false);
+
+        //vaseInstance2.SetActive(false);
+        vaseInstance2.transform.position = vase2HidingPoint.position;
+
         bat.SetActive(false);
+
         TurnOnPromptPickupVaseUI();
         TurnOffPromptPickupBatUI();
 
         tutorialComplete = false;
-        // subscribe event handlers to vaseInstance1 and vaseInstance2
-        // need to update vaseInstance1 and 2 get componenet
-        //Breakable breakable1 = vaseInstance1.GetComponent<Breakable>();
-        //if (breakable1 != null)
-        //{
-        //    Debug.Log("breakable1");
-        //    breakable1.OnBreak.AddListener(ChangeTutorial); // Add event listener to OnBreak
-        //}
-
-        //Breakable breakable2 = vaseInstance2.GetComponent<Breakable>();
-        //if (breakable2 != null)
-        //{
-        //    breakable2.OnBreak.AddListener(OnObjectiveCompleted);
-        //}
-
-
     }
 
     public void ChangeTutorial()
@@ -62,7 +50,6 @@ public class Level0Manager : ObjectiveTracker
         Destroy(vaseInstance1);
         TurnOffPromptPickupVaseUI();
         TurnOnPromptPickupBatUI();
-        //vaseInstance2.SetActive(true);
         bat.SetActive(true);
     }
 
@@ -91,7 +78,7 @@ public class Level0Manager : ObjectiveTracker
     {
         if (!tutorialComplete)
         {
-            vaseInstance2.SetActive(true);
+            //vaseInstance2.SetActive(true);
             vaseInstance2.transform.position = vase2OriginalPos.position;
         }
     }
@@ -128,6 +115,13 @@ public class Level0Manager : ObjectiveTracker
     {
         tutorialComplete = true;
         TurnOffPromptPickupBatUI();
+
+        StartCoroutine(SetTutorialCompleteEnumerator());
+    }
+
+    private IEnumerator SetTutorialCompleteEnumerator()
+    {
+        yield return new WaitForSeconds(2.0f);
         OnObjectiveCompleted(0);
     }
 
