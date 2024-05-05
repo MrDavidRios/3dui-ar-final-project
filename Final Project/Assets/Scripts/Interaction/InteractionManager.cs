@@ -7,6 +7,8 @@ using Oculus.Interaction;
 
 public class InteractionManager : MonoBehaviour
 {
+    [SerializeField] bool isUsingBreaker = true;
+    [SerializeField] Breaker breaker;
     void Awake()
     {
         PointableUnityEventWrapper[] pointables = FindObjectsOfType<PointableUnityEventWrapper>();
@@ -19,6 +21,15 @@ public class InteractionManager : MonoBehaviour
 
             pointable.WhenSelect.AddListener(onSelectAction);
             pointable.WhenUnselect.AddListener(onUnselectAction);
+        }
+
+        if (!isUsingBreaker)
+        {
+            MeshDestroy[] meshDestroyers = FindObjectsOfType<MeshDestroy>();
+            foreach (var meshDestroyer in meshDestroyers)
+            {
+               meshDestroyer.OnMeshDestroy.AddListener(() => breaker.HitObject()); 
+            }
         }
     }
 
@@ -68,14 +79,21 @@ public class InteractionManager : MonoBehaviour
         bool isRight = IsRightHand(eventData);
         VibrateController(0.5f, 0.05f, isRight);
 
-        try
+        if (isUsingBreaker)
         {
-            Breaker collider = go.transform.Find("Visuals/Root/Collider").gameObject.GetComponent<Breaker>();
-            collider.GrabbedHand = isRight ? OVRHand.Hand.HandRight : OVRHand.Hand.HandLeft;
+            try
+            {
+                Breaker collider = go.transform.Find("Visuals/Root/Collider").gameObject.GetComponent<Breaker>();
+                collider.GrabbedHand = isRight ? OVRHand.Hand.HandRight : OVRHand.Hand.HandLeft;
+            }
+            catch
+            {
+                Debug.Log("No collider object found");
+            }
         }
-        catch
+        else
         {
-            Debug.Log("No collider object found");
+            breaker.GrabbedHand = isRight ? OVRHand.Hand.HandRight : OVRHand.Hand.HandLeft;
         }
     }
 

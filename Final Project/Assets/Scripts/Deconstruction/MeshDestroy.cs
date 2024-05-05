@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Oculus.Haptics;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -14,7 +15,8 @@ public class MeshDestroy : MonoBehaviour
     public int CutCascades = 1;
     public float ExplodeForce = 0;
 
-    [SerializeField] private UnityEvent OnMeshDestroy;
+    public UnityEvent OnMeshDestroy;
+    
 
 
     private void OnCollisionEnter(Collision collision)
