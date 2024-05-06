@@ -11,7 +11,7 @@ public class Breakable : MonoBehaviour
     [SerializeField] GameObject originalParent; 
     [SerializeField] GameObject grandParent;
     float break_threshold = 0.15f;
-    float impactRadius = 0.001f;
+    float impactRadius = 0.5f;
     [SerializeField] public UnityEvent OnBreak;
 
     BoxCollider bc;
