@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowPlayerUI : MonoBehaviour
+public class RotateWithPlayerUI : MonoBehaviour
 {
     [SerializeField] private Transform player;
 

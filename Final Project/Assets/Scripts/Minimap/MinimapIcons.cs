@@ -18,7 +18,7 @@ public class MinimapIcons : MonoBehaviour
 
     [Header("Minimap Objects")]
     [SerializeField] private Camera minimapCamera;
-    [SerializeField] private RectTransform minimapImage;
+    [SerializeField] private RectTransform minimapRect;
 
     private void Update()
     {
@@ -26,7 +26,7 @@ public class MinimapIcons : MonoBehaviour
         for (int i = 0; i < pyramidsContainer.childCount; i++)
         {
             Transform pyramidParent = pyramidsContainer.GetChild(i);
-            float distToPyramid = GetPosDiff(player.transform.position, pyramidParent.transform.position).magnitude;
+            float distToPyramid = MinimapUtils.GetPosDiff(player.transform.position, pyramidParent.transform.position).magnitude;
             piles.Add(distToPyramid, pyramidParent);
         }
 
@@ -34,40 +34,18 @@ public class MinimapIcons : MonoBehaviour
             nextPile = piles.Values[0];
         else
             nextPile = null;
+
+        playerIcon.rotation = Quaternion.Euler(0f, 0f, -playerIcon.parent.rotation.eulerAngles.y);
     }
 
     private void LateUpdate()
     {
-        playerIcon.anchoredPosition = GetRelativeIconPosition(player.position);
-        ghostWallEIcon.anchoredPosition = GetRelativeIconPosition(ghostWallE.position);
+        playerIcon.anchoredPosition = MinimapUtils.GetPositionOnMinimap(minimapCamera, minimapRect, player.position, player.position);
+        ghostWallEIcon.anchoredPosition = MinimapUtils.GetPositionOnMinimap(minimapCamera, minimapRect, player.position, ghostWallE.position);
 
         // Only show the next pile icon if there is a next pile in sight.
         pileIcon.gameObject.SetActive(nextPile != null);
         if (nextPile)
-            pileIcon.anchoredPosition = GetRelativeIconPosition(nextPile.position);
-    }
-
-    private Vector2 GetRelativeIconPosition(Vector3 destinationPos)
-    {
-        Vector3 posDiff = GetPosDiff(player.transform.position, destinationPos);
-        float cameraSize = minimapCamera.orthographicSize;
-
-        float xPos = posDiff.x / cameraSize;
-        float yPos = posDiff.z / cameraSize;
-
-        xPos = Mathf.Clamp(xPos, -1f, 1f);
-        yPos = Mathf.Clamp(yPos, -1f, 1f);
-
-        return new Vector2(xPos * minimapImage.rect.width / 2, yPos * minimapImage.rect.height / 2);
-    }
-
-    private Vector3 GetPosDiff(Vector3 origin, Vector3 destination, bool flatten = true)
-    {
-        Vector3 flattenedOriginVector = new Vector3(origin.x, 0f, origin.z);
-        Vector3 flattenedDestinationVector = new Vector3(destination.x, 0f, destination.z);
-
-        if (flatten) return flattenedDestinationVector - flattenedOriginVector;
-
-        return destination - origin;
+            pileIcon.anchoredPosition = MinimapUtils.GetPositionOnMinimap(minimapCamera, minimapRect, player.position, nextPile.position);
     }
 }
