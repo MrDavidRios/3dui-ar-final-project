@@ -4038,7 +4038,7 @@ Transform:
   m_GameObject: {fileID: 1057587635467564813}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.012000086, y: 0.003400037, z: -0.0043998715}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4060,15 +4060,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   brokenObject: {fileID: 0}
-  originalParent: {fileID: 0}
-  grandParent: {fileID: 0}
+  originalParent: {fileID: 5114984080069306701}
+  grandParent: {fileID: 5114984080069306701}
   OnBreak:
     m_PersistentCalls:
       m_Calls: []
   floatingForce: 2
   useCustomGravity: 1
   bodyTag: Body
-  breakSound: {fileID: 0}
+  breakSound: {fileID: 4113153080343365793}
   breakType: 1
 --- !u!64 &152935790393421224
 MeshCollider:
@@ -6945,6 +6945,134 @@ MonoBehaviour:
   bodyTag: Body
   breakSound: {fileID: 0}
   breakType: 1
+--- !u!1 &2201459912458349736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2653248282839491804}
+  - component: {fileID: 4113153080343365793}
+  m_Layer: 0
+  m_Name: sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2653248282839491804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2201459912458349736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.012000086, y: 0.003400037, z: -0.0043998715}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7709277458871818924}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &4113153080343365793
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2201459912458349736}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b3ed5649213cd9e4daf6eed2a307f23e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2227672354438101600
 GameObject:
   m_ObjectHideFlags: 0
@@ -8005,7 +8133,7 @@ Transform:
   m_GameObject: {fileID: 2451395651169488721}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.012000086, y: 0.003400037, z: -0.0043998715}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8032,15 +8160,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   brokenObject: {fileID: 0}
-  originalParent: {fileID: 0}
-  grandParent: {fileID: 0}
+  originalParent: {fileID: 5114984080069306701}
+  grandParent: {fileID: 5114984080069306701}
   OnBreak:
     m_PersistentCalls:
       m_Calls: []
   floatingForce: 2
   useCustomGravity: 1
   bodyTag: Body
-  breakSound: {fileID: 0}
+  breakSound: {fileID: 4113153080343365793}
   breakType: 1
 --- !u!64 &2771391619775498297
 MeshCollider:
@@ -8936,7 +9064,7 @@ Transform:
   m_GameObject: {fileID: 2792842589690000544}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.128, y: 0, z: -0.081}
+  m_LocalPosition: {x: 0.11599993, y: 0.003400037, z: -0.085399866}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9010,15 +9138,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   brokenObject: {fileID: 0}
-  originalParent: {fileID: 0}
-  grandParent: {fileID: 0}
+  originalParent: {fileID: 5114984080069306701}
+  grandParent: {fileID: 5114984080069306701}
   OnBreak:
     m_PersistentCalls:
       m_Calls: []
   floatingForce: 2
   useCustomGravity: 1
   bodyTag: Body
-  breakSound: {fileID: 0}
+  breakSound: {fileID: 4113153080343365793}
   breakType: 1
 --- !u!64 &4062097363563907958
 MeshCollider:
@@ -9783,7 +9911,7 @@ Transform:
   m_GameObject: {fileID: 3003873114979713674}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0003, y: 0, z: -0}
+  m_LocalPosition: {x: -0.0117, y: 0.0034, z: -0.0044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11760,7 +11888,7 @@ Transform:
   m_GameObject: {fileID: 3860462317299504915}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.012000086, y: 0.003400037, z: -0.0043998715}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11782,15 +11910,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   brokenObject: {fileID: 0}
-  originalParent: {fileID: 0}
-  grandParent: {fileID: 0}
+  originalParent: {fileID: 5114984080069306701}
+  grandParent: {fileID: 5114984080069306701}
   OnBreak:
     m_PersistentCalls:
       m_Calls: []
   floatingForce: 2
   useCustomGravity: 1
   bodyTag: Body
-  breakSound: {fileID: 0}
+  breakSound: {fileID: 4113153080343365793}
   breakType: 1
 --- !u!64 &3329273646827147330
 MeshCollider:
@@ -13794,6 +13922,7 @@ Transform:
   - {fileID: 7004326186446449235}
   - {fileID: 4648749762581001072}
   - {fileID: 2403644479146173107}
+  - {fileID: 2653248282839491804}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &8986405643584699336
@@ -16230,7 +16359,7 @@ Transform:
   m_GameObject: {fileID: 6053756456350704146}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.012000086, y: 0.003400037, z: -0.0043998715}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16257,15 +16386,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   brokenObject: {fileID: 0}
-  originalParent: {fileID: 0}
-  grandParent: {fileID: 0}
+  originalParent: {fileID: 5114984080069306701}
+  grandParent: {fileID: 5114984080069306701}
   OnBreak:
     m_PersistentCalls:
       m_Calls: []
   floatingForce: 2
   useCustomGravity: 1
   bodyTag: Body
-  breakSound: {fileID: 0}
+  breakSound: {fileID: 4113153080343365793}
   breakType: 1
 --- !u!64 &3311504032455392354
 MeshCollider:

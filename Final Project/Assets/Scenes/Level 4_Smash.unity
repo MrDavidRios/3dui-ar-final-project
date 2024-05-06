@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.072879076, g: 0.06270851, b: 0.057746075, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2334,6 +2334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 10
   OnMeshDestroy:
@@ -2946,6 +2947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 10
   OnMeshDestroy:
@@ -10678,6 +10680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 0
   OnMeshDestroy:
@@ -15792,11 +15795,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 0
   OnMeshDestroy:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1209211285}
+        m_TargetAssemblyTypeName: Breaker, Assembly-CSharp
+        m_MethodName: HitObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!54 &5249659757726142349
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19092,6 +19108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 0
   OnMeshDestroy:
@@ -19444,6 +19461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 0
   OnMeshDestroy:
@@ -19989,6 +20007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 0
   OnMeshDestroy:
@@ -25268,6 +25287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 0
   OnMeshDestroy:
@@ -30083,6 +30103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 0
   OnMeshDestroy:
@@ -30381,6 +30402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 0
   OnMeshDestroy:
@@ -35586,6 +35608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1bac3ed9e42e648acb0d61d58a462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breaker: {fileID: 0}
   CutCascades: 1
   ExplodeForce: 0
   OnMeshDestroy:

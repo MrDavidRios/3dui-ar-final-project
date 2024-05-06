@@ -4180,8 +4180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   brokenObject: {fileID: 0}
-  originalParent: {fileID: 0}
-  grandParent: {fileID: 0}
+  originalParent: {fileID: 5114984080069306701}
+  grandParent: {fileID: 5114984080069306701}
   OnBreak:
     m_PersistentCalls:
       m_Calls: []
@@ -8284,8 +8284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   brokenObject: {fileID: 0}
-  originalParent: {fileID: 0}
-  grandParent: {fileID: 0}
+  originalParent: {fileID: 5114984080069306701}
+  grandParent: {fileID: 5114984080069306701}
   OnBreak:
     m_PersistentCalls:
       m_Calls: []
@@ -9287,8 +9287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   brokenObject: {fileID: 0}
-  originalParent: {fileID: 0}
-  grandParent: {fileID: 0}
+  originalParent: {fileID: 5114984080069306701}
+  grandParent: {fileID: 5114984080069306701}
   OnBreak:
     m_PersistentCalls:
       m_Calls: []
@@ -12200,8 +12200,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   brokenObject: {fileID: 0}
-  originalParent: {fileID: 0}
-  grandParent: {fileID: 0}
+  originalParent: {fileID: 5114984080069306701}
+  grandParent: {fileID: 5114984080069306701}
   OnBreak:
     m_PersistentCalls:
       m_Calls: []
@@ -16807,8 +16807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalObject: {fileID: 0}
   brokenObject: {fileID: 0}
-  originalParent: {fileID: 0}
-  grandParent: {fileID: 0}
+  originalParent: {fileID: 5114984080069306701}
+  grandParent: {fileID: 5114984080069306701}
   OnBreak:
     m_PersistentCalls:
       m_Calls: []
