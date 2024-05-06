@@ -28,23 +28,19 @@ public class ClickAndMove : MonoBehaviour
             
             if (eveObject != null)
             {
-                
-                Vector3 evePosition = transform.position + transform.forward * eveDistance;
+                // x-z only!
+                Vector3 forwardXZ = new Vector3(transform.forward.x, 0, transform.forward.z).normalized;
+                Vector3 evePosition = transform.position + forwardXZ * eveDistance;
 
-                
-                evePosition.y = 0;
-
-                
                 eveObject.transform.position = evePosition;
+                eveObject.transform.LookAt(new Vector3(transform.position.x, eveObject.transform.position.y, transform.position.z));
 
-                
-                eveObject.transform.LookAt(transform.position);
-                
                 
                 Vector3 newRotation = eveObject.transform.eulerAngles;
                 newRotation.x = 16f;
                 eveObject.transform.eulerAngles = newRotation;
             }
+
 
             hasMoved = true;
 
