@@ -46,4 +46,9 @@ public class PauseMenu : MonoBehaviour
     {
         gamePaused = false;
     }
+
+    public void ClosePauseMenu()
+    {
+        pauseMenu.SetActive(false);
+    }
 }
