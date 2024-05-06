@@ -7,6 +7,8 @@ using UnityEngine.Events;
 
 public class MeshDestroy : MonoBehaviour
 {
+    public Breaker breaker; // refer
+
     private bool edgeSet = false;
     private Vector3 edgeVertex = Vector3.zero;
     private Vector2 edgeUV = Vector2.zero;
@@ -21,14 +23,48 @@ public class MeshDestroy : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        
-        float impactForce = collision.impulse.magnitude / Time.fixedDeltaTime; 
-        if (collision.gameObject.tag == "Breaker" && impactForce > 150f) //Currently I think 150 is okay but can edit after more testing
+        if (collision.gameObject.CompareTag("Breaker"))
         {
-            DestroyMesh(); 
-            OnMeshDestroy?.Invoke();
+            float impactForce = collision.impulse.magnitude / Time.fixedDeltaTime; 
+            if (impactForce > 150f) // threshold for destructive force
+            {
+                DestroyMesh();
+                OnMeshDestroy?.Invoke();
+                if (breaker != null) 
+                {
+                    breaker.HitObject(); 
+                }
+                breaker?.HitObject(); // haptic
+            }
+
+            Breaker breakerScript = collision.gameObject.GetComponent<Breaker>();
+            if (breakerScript != null)
+            {
+                breakerScript.HitObject(); 
+            }
+            else
+            {
+                Debug.LogError("Breaker script not found on the object tagged as Breaker.");
+            }
+        }
+        if (collision.gameObject.CompareTag("Breaker"))
+        {
+            
+
+            GameObject breakerObject = GameObject.FindGameObjectWithTag("Breaker");
+
+            if (breakerObject != null)
+            {
+                breakerObject.GetComponent<Breaker>().HitObject(); // haptic
+                breaker?.HitObject();
+            }
+            else
+            {
+                Debug.LogError("Breaker object not found. Make sure there is an object tagged as 'Breaker'.");
+            }
         }
     }
+    
 
 
     private void DestroyMesh()
@@ -73,6 +109,13 @@ public class MeshDestroy : MonoBehaviour
         for (var i = 0; i < parts.Count; i++)
         {
             parts[i].MakeGameobject(this);
+
+            if (breaker != null)
+            {
+                breaker.HitObject(); // add haptic here as well
+            }
+
+
             parts[i].GameObject.GetComponent<Rigidbody>().AddForceAtPosition(parts[i].Bounds.center * ExplodeForce, transform.position);
         }
 
@@ -180,6 +223,11 @@ public class MeshDestroy : MonoBehaviour
                     continue;
                 }
 
+                // Add haptic feedback
+                if (breaker != null)
+                {
+                    breaker.HitObject(); // Trigger haptic feedback
+                }
 
             }
         }

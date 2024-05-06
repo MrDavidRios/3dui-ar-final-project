@@ -10,7 +10,7 @@ public class Breakable : MonoBehaviour
     [SerializeField] GameObject brokenObject;
     [SerializeField] GameObject originalParent; 
     [SerializeField] GameObject grandParent;
-    float break_threshold = 0.025f;
+    float break_threshold = 0.15f;
     float impactRadius = 0.001f;
     [SerializeField] public UnityEvent OnBreak;
 
@@ -102,6 +102,7 @@ public class Breakable : MonoBehaviour
             case BreakType.Replace:
                 originalObject.SetActive(false);
                 brokenObject.SetActive(true);
+                StartCoroutine(DeactivateBrokenObjectAfterDelay(5f)); // no more shakinggg
                 bc.enabled = false;
                 break;
             case BreakType.Detach:
@@ -119,11 +120,17 @@ public class Breakable : MonoBehaviour
                 DetachAllSiblings();
                 //  DetachGrandChildren();// Fixed: No argument passed // keep this note don't delete
                 ApplyFloatingAndRotationToParent();
+                
                 break;
         }
     }
 
-
+    // delete the broken object
+    IEnumerator DeactivateBrokenObjectAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        brokenObject.SetActive(false);
+    }
 
     // NEW:
     public void MakeUnbreakable()

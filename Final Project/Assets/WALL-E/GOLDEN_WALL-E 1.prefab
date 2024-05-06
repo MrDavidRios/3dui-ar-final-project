@@ -10117,7 +10117,6 @@ GameObject:
   - component: {fileID: 681762413136301247}
   - component: {fileID: 7312796933451406109}
   - component: {fileID: 5121393093459485841}
-  - component: {fileID: 4368212082680295335}
   m_Layer: 0
   m_Name: GOLDEN_WALL-E 1
   m_TagString: Untagged
@@ -10289,34 +10288,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4368212082680295335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7976594097071845187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 266caefbed37b9042b46bec8790855a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onHitEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  targetPrefab: {fileID: 919132149155446097, guid: 5162e65f87990fc47a89fba20931caf7, type: 3}
 --- !u!1 &8120515670811776902
 GameObject:
   m_ObjectHideFlags: 0

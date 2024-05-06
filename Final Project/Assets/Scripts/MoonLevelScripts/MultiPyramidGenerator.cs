@@ -18,8 +18,6 @@ public class MultiPyramidGenerator : MonoBehaviour
 
     private List<Vector3> pyramidLocations = new List<Vector3>(); // List of pyramid positions
 
-    public List<Transform> rocks;
-
     void Start()
     {
         if (terrainBounds == null)
@@ -40,7 +38,7 @@ public class MultiPyramidGenerator : MonoBehaviour
         {
             Vector3 randomPosition = GenerateRandomPosition(bounds);
 
-            while (IsTooCloseToOthers(randomPosition) || IsTooCloseToPlayer(randomPosition) || IsInRestrictedZone(randomPosition))
+            while (IsTooCloseToOthers(randomPosition) || IsTooCloseToPlayer(randomPosition))
             {
                 randomPosition = GenerateRandomPosition(bounds);
             }
@@ -83,8 +81,7 @@ public class MultiPyramidGenerator : MonoBehaviour
                     if (containsGoldWallE && layer == goldLayer && x == goldX && z == goldZ)
                     {
                         // Place the gold WallE at the randomly chosen position
-                        GameObject goldWallE = Instantiate(goldWallEPrefab, position, Quaternion.identity, pyramidParent.transform);
-                        goldWallE.SetActive(true);
+                        Instantiate(goldWallEPrefab, position, Quaternion.identity, pyramidParent.transform);
                     }
                     else
                     {
@@ -120,17 +117,5 @@ public class MultiPyramidGenerator : MonoBehaviour
     private bool IsTooCloseToPlayer(Vector3 position)
     {
         return Vector3.Distance(player.position, position) < minimumDistanceFromPlayer;
-    }
-
-    private bool IsInRestrictedZone(Vector3 position)
-    {
-        foreach (Transform zone in rocks)
-        {
-            if (zone.GetComponent<Collider>().bounds.Contains(position))
-            {
-                return true;
-            }
-        }
-        return false;
     }
 }
