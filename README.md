@@ -25,7 +25,7 @@ Rage rooms offer an adrenaline-filled way for people to relieve stress, but they
 - **Assets/Audio:** Contains audio files used for sound haptics.
 - **Assets/Baseball Bats:** Contains baseball bat prefab.
 - **Assets/Deconstruct:** Contains breakable objects used in the different levels of the game.
-- **Assets/Editor: **Contains code for tracking object destruction.
+- **Assets/Editor:** Contains code for tracking object destruction.
 - **Assets/Haptic:** Contains code for vibration haptic feedback.
 - **Assets/Lunar Landscape 3D:** Contains prefabs and scenes from Unity Asset store.
 - **Assets/Material:** Contains material used in game levels.
