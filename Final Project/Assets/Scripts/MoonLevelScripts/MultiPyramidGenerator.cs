@@ -9,14 +9,16 @@ public class MultiPyramidGenerator : MonoBehaviour
     public GameObject terrainBounds; // Rectangular GameObject representing terrain bounds
     public Transform player;
 
-    public int numberOfPyramids = 5;
+    public int numberOfPyramids = 3;
     public float minimumDistanceBetweenPyramids = 10f;
     public float minimumDistanceFromPlayer = 20f;
     public int pyramidLayers = 5;
-    public int baseLayerSize = 10;
-    public float spacing = 1.5f; // Spacing between pyramid objects
+    public int baseLayerSize = 5;
+    public float spacing = 1f; // Spacing between pyramid objects
 
     private List<Vector3> pyramidLocations = new List<Vector3>(); // List of pyramid positions
+
+    public List<Transform> rocks;
 
     void Start()
     {
@@ -38,7 +40,7 @@ public class MultiPyramidGenerator : MonoBehaviour
         {
             Vector3 randomPosition = GenerateRandomPosition(bounds);
 
-            while (IsTooCloseToOthers(randomPosition) || IsTooCloseToPlayer(randomPosition))
+            while (IsTooCloseToOthers(randomPosition) || IsTooCloseToPlayer(randomPosition) || IsInRestrictedZone(randomPosition))
             {
                 randomPosition = GenerateRandomPosition(bounds);
             }
@@ -81,7 +83,8 @@ public class MultiPyramidGenerator : MonoBehaviour
                     if (containsGoldWallE && layer == goldLayer && x == goldX && z == goldZ)
                     {
                         // Place the gold WallE at the randomly chosen position
-                        Instantiate(goldWallEPrefab, position, Quaternion.identity, pyramidParent.transform);
+                        GameObject goldWallE = Instantiate(goldWallEPrefab, position, Quaternion.identity, pyramidParent.transform);
+                        goldWallE.SetActive(true);
                     }
                     else
                     {
@@ -117,5 +120,17 @@ public class MultiPyramidGenerator : MonoBehaviour
     private bool IsTooCloseToPlayer(Vector3 position)
     {
         return Vector3.Distance(player.position, position) < minimumDistanceFromPlayer;
+    }
+
+    private bool IsInRestrictedZone(Vector3 position)
+    {
+        foreach (Transform zone in rocks)
+        {
+            if (zone.GetComponent<Collider>().bounds.Contains(position))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }

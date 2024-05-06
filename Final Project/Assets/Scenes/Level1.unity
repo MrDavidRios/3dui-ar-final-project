@@ -3180,9 +3180,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 711987915}
-        m_TargetAssemblyTypeName: PauseFunctionality, Assembly-CSharp
-        m_MethodName: ResumeGame
+      - m_Target: {fileID: 711987914}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: ClosePauseMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
