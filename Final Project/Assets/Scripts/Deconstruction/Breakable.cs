@@ -10,7 +10,7 @@ public class Breakable : MonoBehaviour
     [SerializeField] GameObject brokenObject;
     [SerializeField] GameObject originalParent; 
     [SerializeField] GameObject grandParent;
-    float break_threshold = 0.025f;
+    float break_threshold = 0.15f;
     float impactRadius = 0.001f;
     [SerializeField] public UnityEvent OnBreak;
 

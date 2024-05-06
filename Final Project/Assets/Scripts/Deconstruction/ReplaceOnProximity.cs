@@ -5,35 +5,47 @@ using UnityEngine;
 public class ReplaceOnProximity : MonoBehaviour
 {
     public GameObject interactableWallEPrefab;
+    public float forceThreshold = 75f;  // Threshold for the collision force to trigger replacement
+    public enum SpawnType { Floating, Pyramid }  
+    public SpawnType spawnType = SpawnType.Floating;  
 
     void OnCollisionEnter(Collision collision)
     {
-        // Check for collision with the "Breaker"
+        
         if (collision.gameObject.CompareTag("Breaker"))
         {
-            ReplaceWithInteractableWallE();
-        }
-    }
+            
+            float collisionForce = collision.impulse.magnitude / Time.fixedDeltaTime;
 
-    void ReplaceWithInteractableWallE()
-    {
-        // Instantiate the InteractableWallE prefab at the same position and rotation as this object
-        GameObject interactableWallE = Instantiate(interactableWallEPrefab, transform.position, transform.rotation);
-        
-        // If the original object has a Rigidbody, transfer velocity to the new object
-        Rigidbody originalRb = GetComponent<Rigidbody>();
-        if (originalRb != null)
-        {
-            Rigidbody newRb = interactableWallE.GetComponent<Rigidbody>();
-            if (newRb != null)
+            
+            if (collisionForce > forceThreshold)
             {
-                newRb.velocity = originalRb.velocity;
-                newRb.angularVelocity = originalRb.angularVelocity;
+                
+                Vector3 hitPoint = collision.contacts[0].point;
+                ReplaceWithInteractableWallE(hitPoint);
             }
         }
-
-        // Destroy this object
-        Destroy(gameObject);
     }
 
+    void ReplaceWithInteractableWallE(Vector3 hitPosition)
+    {
+        
+        Quaternion spawnRotation = transform.rotation;
+        if (spawnType == SpawnType.Pyramid)
+        {
+            spawnRotation *= Quaternion.Euler(0, 180, 0);  // Apply 180-degree rotation on x-axis for Pyramid type
+        }
+
+        GameObject interactableWallE = Instantiate(interactableWallEPrefab, hitPosition, spawnRotation);
+
+       
+        Rigidbody newRb = interactableWallE.GetComponent<Rigidbody>();
+        if (newRb != null)
+        {
+            newRb.isKinematic = true;  
+        }
+
+        
+        Destroy(gameObject);
+    }
 }
