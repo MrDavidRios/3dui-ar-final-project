@@ -69,6 +69,7 @@ The following assets were used for this project:
 - https://sketchfab.com/3d-models/china-vase-da1a1ebb640a42e3b70a32fdf7117dc1
 - https://sketchfab.com/3d-models/hammer-stylized-af52617fec3a45579df87a1963405b38
 - https://sketchfab.com/3d-models/eve-from-wall-e-c3acb81e214f4fc78bb3251339c2adc9
+- https://www.voicy.network/official-soundboards/movies/wall-e (Wall-E Sound Effects)
 
 
 - https://assetstore.unity.com/packages/tools/custom-teleporter-pad-script-20098 （NOT USED IN FINAL APPLICATION）
