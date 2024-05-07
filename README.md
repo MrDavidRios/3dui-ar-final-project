@@ -35,7 +35,7 @@ Rage rooms offer an adrenaline-filled way for people to relieve stress, but they
 - **Assets/Scenes:** Contains level selector and levels 0, 1, 2, 3, and 4.
 - **Assets/Scripts:** Contains all scripts organized in individual folders.
 - **Assets/Sprites:** Contains sprites used in UI.
-- **Assets/Teleportation Pad** [NOT USED]
+- **Assets/Teleportation Pad** (NOT USED)
 - **Assets/TextMesh Pro:** Contains fonts, including custom font.
 - **Assets/WALL-E:** Contains various files related to Level 3. 
 
@@ -43,4 +43,6 @@ Rage rooms offer an adrenaline-filled way for people to relieve stress, but they
 Due to the complexity of Level 2 and Level 3, we recommend deploying those using Quest Link for best experience. All other levels can be run using a Quest 2 without compromising experinece. 
 
 ## Video URL
+[https://youtu.be/Vi-sld9ctEw]
+
 
