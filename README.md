@@ -11,7 +11,7 @@ Rage rooms offer an adrenaline-filled way for people to relieve stress, but they
 - Tina Tsai (tyt2111)
 - Kei Asano (ka2836)
 
-**Date of submittion:** May 7, 2024
+**Date of submission:** May 7, 2024
 
 **Development Platform and OS Version:** Unity (Version: 2022.3.17f1)
 
