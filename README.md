@@ -42,7 +42,14 @@ Rage rooms offer an adrenaline-filled way for people to relieve stress, but they
 ## Special Instructions
 Due to the complexity of Level 2 and Level 3, we recommend deploying those using Quest Link for best experience. All other levels can be run using a Quest 2 without compromising experinece. 
 
-For deployment, please build and run all 6 scenes as shown in the screenshot in the same order:
+For deployment, please build and run all 6 scenes as shown below in the same order:
+
+- Scenes/Level Selector (Scene Index: 0)
+- Scenes/Level0 Tutorial (Scene Index: 1)
+- Scenes/Level1 (Scene Index: 2)
+- Scenes/Level2-TimeCrunch (Scene Index: 3)
+- Scenes/Level3-Moon-Flattened_Tina_0504 (Scene Index: 4)
+- Scenes/Level 4_Smash (Scene Index: 5)
 
 <img width="708" alt="Screenshot 2024-05-07 at 12 32 32 PM" src="https://github.com/MrDavidRios/3dui-ar-final-project/assets/56395320/ecec9c8a-a16b-4239-9059-258164592807">
 
