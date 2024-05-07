@@ -45,4 +45,14 @@ Due to the complexity of Level 2 and Level 3, we recommend deploying those using
 ## Demo Video URL
 [https://youtu.be/Vi-sld9ctEw]
 
+## References
+The following assets were used for this project:
+- https://assetstore.unity.com/packages/3d/props/weapons/baseball-bats-pack-102171
+- https://assetstore.unity.com/packages/3d/environments/landscapes/lunar-landscape-3d-132614
+- https://assetstore.unity.com/packages/3d/props/exterior/rock-and-boulders-2-6947
+- https://assetstore.unity.com/packages/2d/textures-materials/brick/old-urban-brick-texture-59256
+- https://pixabay.com/sound-effects/search/glass/ (Glass Breaking by Charlie_Raven)
+
+- https://assetstore.unity.com/packages/tools/custom-teleporter-pad-script-20098 （NOT USED）
+
 
