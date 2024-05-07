@@ -42,7 +42,7 @@ Rage rooms offer an adrenaline-filled way for people to relieve stress, but they
 ## Special Instructions
 Due to the complexity of Level 2 and Level 3, we recommend deploying those using Quest Link for best experience. All other levels can be run using a Quest 2 without compromising experinece. 
 
-## Video URL
+## Demo Video URL
 [https://youtu.be/Vi-sld9ctEw]
 
 
