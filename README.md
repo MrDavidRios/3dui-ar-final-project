@@ -65,6 +65,8 @@ The following assets were used for this project:
 - https://assetstore.unity.com/packages/3d/props/exterior/rock-and-boulders-2-6947
 - https://assetstore.unity.com/packages/2d/textures-materials/brick/old-urban-brick-texture-59256
 - https://pixabay.com/sound-effects/search/glass/ (Glass Breaking by Charlie_Raven)
+- https://sketchfab.com/3d-models/japanese-traditional-wall-scroll-d4a38adefee64cbebf0c2ccad72e8ea7
+
 
 - https://assetstore.unity.com/packages/tools/custom-teleporter-pad-script-20098 （NOT USED）
 
