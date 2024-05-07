@@ -42,6 +42,12 @@ Rage rooms offer an adrenaline-filled way for people to relieve stress, but they
 ## Special Instructions
 Due to the complexity of Level 2 and Level 3, we recommend deploying those using Quest Link for best experience. All other levels can be run using a Quest 2 without compromising experinece. 
 
+For deployment, please build and run all 6 scenes as shown in the screenshot in the same order:
+
+<img width="708" alt="Screenshot 2024-05-07 at 12 32 32 PM" src="https://github.com/MrDavidRios/3dui-ar-final-project/assets/56395320/ecec9c8a-a16b-4239-9059-258164592807">
+
+
+
 ## Demo Video URL
 [https://youtu.be/Vi-sld9ctEw]
 
