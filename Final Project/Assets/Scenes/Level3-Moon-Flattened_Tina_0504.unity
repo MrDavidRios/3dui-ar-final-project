@@ -1813,7 +1813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b52d9bcbee5ea741b0d5e3154348f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 783231005}
   rectTransform: {fileID: 401706709}
   rotationOffset: 0
 --- !u!1 &413374789 stripped
@@ -10538,7 +10538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b52d9bcbee5ea741b0d5e3154348f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 783231005}
   rectTransform: {fileID: 1234593897}
   rotationOffset: 0
 --- !u!1 &1259215541

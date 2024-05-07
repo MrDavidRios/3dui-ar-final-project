@@ -43,7 +43,7 @@ public class MinimapPath : MonoBehaviour
             newLineRect.anchoredPosition = lineCenterPos - pathObj.anchoredPosition;
 
             Vector2 dir = currentPosOnMinimap - lastPosOnMinimap;
-            newLineRect.rotation = Quaternion.Euler(0f, 0f, Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg + pivotPoint.rotation.eulerAngles.z);
+            newLineRect.localRotation = Quaternion.Euler(0f, 0f, Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg + pivotPoint.rotation.eulerAngles.z);
 
             // Configure line length (rect transform width)
             float lineWidth = Vector2.Distance(currentPosOnMinimap, lastPosOnMinimap);

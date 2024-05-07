@@ -35,7 +35,7 @@ public class MinimapIcons : MonoBehaviour
         else
             nextPile = null;
 
-        playerIcon.rotation = Quaternion.Euler(0f, 0f, -playerIcon.parent.rotation.eulerAngles.y);
+        playerIcon.localRotation = Quaternion.Euler(0f, 0f, -playerIcon.parent.rotation.eulerAngles.y);
     }
 
     private void LateUpdate()
