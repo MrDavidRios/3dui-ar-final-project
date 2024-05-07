@@ -40,7 +40,7 @@ Rage rooms offer an adrenaline-filled way for people to relieve stress, but they
 - **Assets/WALL-E:** Contains various files related to Level 3. 
 
 ## Special Instructions
-Due to the complexity of Level 2 and Level 3, we recommend deploying those using Quest Link for best experience. All other levels can be run using a Quest 2 without compromising experinece. 
+Due to the complexity of Level 2 and Level 3, we recommend deploying those using Quest Link for best experience. All other levels can be run using a Quest 2 (standalone) without compromising experinece. 
 
 For deployment, please build and run all 6 scenes as shown below in the same order:
 
