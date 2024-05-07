@@ -66,8 +66,15 @@ The following assets were used for this project:
 - https://assetstore.unity.com/packages/2d/textures-materials/brick/old-urban-brick-texture-59256
 - https://pixabay.com/sound-effects/search/glass/ (Glass Breaking by Charlie_Raven)
 - https://sketchfab.com/3d-models/japanese-traditional-wall-scroll-d4a38adefee64cbebf0c2ccad72e8ea7
+- https://sketchfab.com/3d-models/china-vase-da1a1ebb640a42e3b70a32fdf7117dc1
+- https://sketchfab.com/3d-models/hammer-stylized-af52617fec3a45579df87a1963405b38
+- https://sketchfab.com/3d-models/eve-from-wall-e-c3acb81e214f4fc78bb3251339c2adc9
 
 
-- https://assetstore.unity.com/packages/tools/custom-teleporter-pad-script-20098 （NOT USED）
+- https://assetstore.unity.com/packages/tools/custom-teleporter-pad-script-20098 （NOT USED IN FINAL APPLICATION）
+
+The following scripts were referenced:
+- https://gist.github.com/ditzel/73f4d1c9028cc3477bb921974f84ed56
+
 
 
